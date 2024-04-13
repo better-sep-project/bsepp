@@ -1,7 +1,8 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const { prisma } = require("./config/db");
+const { mongooseClient } = require("./config/db");
 
 const PORT = process.env.PORT || 3000;
 
@@ -21,7 +22,7 @@ process.on("SIGINT", async () => {
   console.log("Closing server");
 
   // terminate db
-  await prisma.$disconnect();
+  await mongooseClient.client.connection.close();
 
   // redis
   await redisClient.client.quit();

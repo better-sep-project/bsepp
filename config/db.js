@@ -1,14 +1,29 @@
-const { PrismaClient } = require("@prisma/client");
+const mongoose = require("mongoose");
 
-let prisma;
+// mongoose singleton
+class MongooseClient {
+  constructor() {
+    if (!MongooseClient.instance) {
+      this.client = mongoose.connect(process.env.MONGO_URL, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      });
 
-if (process.env.NODE_ENV === "production") {
-  prisma = new PrismaClient();
-} else {
-  if (!global.prisma) {
-    global.prisma = new PrismaClient();
+      this.client.then(() => {
+        console.log("Connected to MongoDB");
+      });
+
+      this.client.catch((err) => {
+        console.log(`Error: ${err}`);
+      });
+
+      MongooseClient.instance = this;
+    }
+
+    return MongooseClient.instance;
   }
-  prisma = global.prisma;
 }
 
-export default prisma;
+const mongooseClient = new MongooseClient();
+
+module.exports = mongooseClient;

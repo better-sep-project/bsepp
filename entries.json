@@ -1,0 +1,918 @@
+[
+  {
+    "id": "abduction",
+    "url": "https://plato.stanford.edu/entries/abduction/",
+    "authors": [
+      "Igor Douven"
+    ],
+    "title": "Abduction",
+    "firstPublished": "2011-03-09T00:00:00.000Z",
+    "lastPublished": "2021-05-17T23:00:00.000Z",
+    "preamble": "In the philosophical literature, the term “abduction” is\nused in two related but different senses. In both senses, the term\nrefers to some form of explanatory reasoning. However, in the\nhistorically first sense, it refers to the place of explanatory\nreasoning in generating hypotheses, while in the sense in\nwhich it is used most frequently in the modern literature it refers to\nthe place of explanatory reasoning in justifying hypotheses.\nIn the latter sense, abduction is also often called “Inference\nto the Best Explanation.”\n\n\nThis entry is exclusively concerned with abduction in the modern\nsense, although there is a supplement on abduction in the historical\nsense, which had its origin in the work of Charles Sanders\nPeirce—see the\n\n\n Supplement: Peirce on Abduction.\n \n\n\nSee also the entry on\n scientific discovery,\n in particular the section on discovery as abduction.\n\n\nMost philosophers agree that abduction (in the sense of Inference to\nthe Best Explanation) is a type of inference that is frequently\nemployed, in some form or other, both in everyday and in scientific\nreasoning. However, the exact form as well as the normative status of\nabduction are still matters of controversy. This entry contrasts\nabduction with other types of inference; points at prominent uses of\nit, both in and outside philosophy; considers various more or less\nprecise statements of it; discusses its normative status; and\nhighlights possible connections between abduction and Bayesian\nconfirmation theory.",
+    "bibliography": "Bibliography\n\n\n\nAchinstein, P., 2001. The Book of Evidence, Oxford:\nOxford University Press.\n\nAdler, J., 1994. “Testimony, Trust, Knowing,”\nJournal of Philosophy, 91: 264–275.\n\nBach, K. and Harnish, R., 1979. Linguistic Communication and\nSpeech Acts, Cambridge MA: MIT Press.\n\nBird, A., 1998. Philosophy of Science, London: UCL\nPress.\n\nBigelow, J., 2010. “Quine, Mereology, and Inference to the\nBest Explanation,” Logique et Analyse, 212:\n465–482.\n\nBovens, L. and Hartmann, S., 2003. “Solving the Riddle of\nCoherence,” Mind, 112: 601–633.\n\nBoyd, R., 1981. “Scientific Realism and Naturalistic\nEpistemology,” in P. Asquith and R. Giere (eds.), PSA\n1980, (vol. II), East Lansing MI: Philosophy of Science\nAssociation, pp. 613–662.\n\n–––, 1984. “The Current Status of\nScientific Realism,” in J. Leplin (ed.), Scientific\nRealism, Berkeley CA: University of California Press, pp.\n41–82.\n\n–––, 1985. “Lex Orandi est Lex\nCredendi,” in P. Churchland and C. Hooker (eds.), Images of\nScience, Chicago IL: University of Chicago Press, pp.\n3–34.\n\nBrem, S. and Rips, L. J., 2000. “Explanation and Evidence in\nInformal Argument,” Cognitive Science, 24:\n573–604.\n\nCallebaut, W. (ed.), 1993. Taking the Naturalistic Turn,\nChicago IL: University of Chicago Press.\n\nCampos, D., 2011. “On the Distinction Between Peirce’s\nAbduction and Lipton’s Inference to the Best Explanation,”\nSynthese, 180: 419–442.\n\nClimenhaga, N., forthcoming. “Inference to the Best\nExplanation Made Incoherent,” Journal of Philosophy,\n preprint available online.\n \nDascal, M., 1979. “Conversational Relevance,” in A.\nMargalit (ed.), Meaning and Use, Dordrecht: Reidel, pp.\n153–174.\n\nDellsén, F., 2017. “Reactionary Responses to the Bad\nLot Objection,” Studies in History and Philosophy of\nScience, 61: 32–40.\n\n–––, 2018. “The Heuristic Conception of\nInference to the Best Explanation,”\nPhilosophical Studies, 175: 1745–1766. \n\nDouven, I., 1999. “Inference to the Best Explanation Made\nCoherent,” Philosophy, of Science, 66:\nS424–S435.\n\n–––, 2002. “Testing Inference to the Best\nExplanation,” Synthese, 130: 355–377.\n\n–––, 2008. “Underdetermination,” in\nS. Psillos and M. Curd (eds.), The Routledge Companion to the\nPhilosophy of Science, London: Routledge, pp. 292–301.\n\n–––, 2013. “Inference to the Best\nExplanation, Dutch Books, and Inaccuracy Minimisation,”\nPhilosophical Quarterly, 63: 428–444.\n\n–––, 2016a. The Epistemology of Indicative\nConditionals, Cambridge: Cambridge University Press.\n\n–––, 2016b. “Explanation, Updating, and\nAccuracy,” Journal of Cognitive Psychology, 28:\n1004–1012.\n\n–––, 2017. “What Is Inference to the Best\nExplanation? And Why Should We Care?” in T. Poston and K. McCain\n(eds.), Best Explanations: New Essays on Inference to the Best\nExplanation, Oxford: Oxford University Press, pp.\n4–22.\n\n–––, 2020. “The Ecological Rationality of\nExplanatory Reasoning,” Studies in History and Philosophy of\nScience, 79: 1–14.\n\n–––, forthcoming. The Art of\nAbduction, Cambridge MA: MIT Press.\n\nDouven, I. and Mirabile, P., 2018. “Best, Second-best, and\nGood-enough Explanations: How They Matter to Reasoning,”\nJournal of Experimental Psychology: Language, Memory, and\nCognition, 44: 1792–1813.\n\nDouven, I. and Schupbach, J., 2015a. “The Role of\nExplanatory Considerations in Updating,” Cognition,\n142: 299–311.\n\n–––, 2015b. “Probabilistic Alternatives to\nBayesianism: The Case of Explanationism,” Frontiers in\nPsychology, 6: 459. doi:10.3389/fpsyg.2015.00459\n\nDouven, I. and Wenmackers, S., 2017. “Inference to the Best\nExplanation versus Bayes’s Rule in a Social Setting,”\nBritish Journal for the Philosophy of Science, 68:\n535–570.\n\nDragulinescu, S., 2016. “Inference to the Best Explanation\nand Mechanisms in Medicine,” Theoretical Medicine and\nBioethics, 37(3): 211–232.\n\nFann, K. T., 1970. Peirce’s Theory of Abduction,\nThe Hague: Martinus Nijhoff.\n\nFine, A., 1984. “The Natural Ontological Attitude,” in\nJ. Leplin (ed.), Scientific Realism, Berkeley CA: University\nof California Press, pp. 83–107.\n\nFoley, R., 1992. “The Epistemology of Belief and the\nEpistemology of Degrees of Belief,” American Philosophical\nQuarterly, 29: 111–124.\n\nFolina, J., 2016. “Realism, Skepticism, and the Brain in a\nVat,” in S. Goldberg (ed.), The Brain in a Vat,\nCambridge: Cambridge University Press, pp. 155–173.\n\nForster, M. and Sober, E., 1994. “How to Tell when Simpler,\nMore Unified, or Less Ad Hoc, Theories will Provide More\nAccurate Predictions,” British Journal for the Philosophy of\nScience, 45: 1–36.\n\nFrankfurt, H., 1958. “Peirce’s Notion of\nAbduction,” Journal of Philosophy, 55:\n593–596.\n\nFricker, E., 1994. “Against Gullibility,” in B. K.\nMatilal and A. Chakrabarti (eds.), Knowing from Words,\nDordrecht: Kluwer, pp. 125–161.\n\nGoldman, A., 1988. Empirical Knowledge, Berkeley CA:\nUniversity of California Press.\n\nHájek, A., 2003. “What Conditional Probability Could\nNot Be,” Synthese, 137: 273–323.\n\nHarman, G., 1965. “The Inference to the Best\nExplanation,” Philosophical Review, 74:\n88–95.\n\n–––, 1973. Thought, Princeton NJ:\nPrinceton University Press.\n\n–––, 1997. “Pragmatism and Reasons for\nBelief,” in C. Kulp (ed.), Realism/Antirealism and\nEpistemology, Totowa NJ: Rowman and Littlefield, pp.\n123–147.\n\nHarré, R., 1986. Varieties of Realism, Oxford:\nBlackwell.\n\n–––, 1988. “Realism and Ontology,”\nPhilosophia Naturalis, 25: 386–398.\n\nHobbs, J. R., 2004. “Abduction in Natural Language\nUnderstanding,” in L. Horn and G. Ward (eds.), The Handbook\nof Pragmatics, Oxford: Blackwell, pp. 724–741.\n\nJanssen, M., 2002. “Reconsidering a Scientific Revolution:\nThe Case of Einstein versus, Lorentz,” Physics in\nPerspective, 4: 421–446.\n\nJosephson, J. R. and Josephson, S. G. (eds.), 1994. Abductive\nInference, Cambridge: Cambridge University Press.\n\nKitcher, P., 2001. “Real Realism: The Galilean\nStrategy,” Philosophical Review, 110:\n151–197.\n\nKoehler, D. J., 1991. “Explanation, Imagination, and\nConfidence in Judgment,” Psychological Bulletin, 110:\n499–519.\n\nKoslowski, B., Marasia, J., Chelenza, M., and Dublin, R., 2008.\n“Information Becomes Evidence when an Explanation Can\nIncorporate it into a Causal Framework,” Cognitive\nDevelopment, 23: 472–487.\n\nKosso, P., 1992. Reading the Book of Nature, Cambridge:\nCambridge University Press.\n\nKrzyżanowska, K, Wenmackers, S., and Douven, I., 2014.\n“Rethinking Gibbard’s Riverboat Argument,”\nStudia Logica, 102: 771–792.\n\nKuipers, T., 1984. “Approaching the Truth with the Rule of\nSuccess,” Philosophia, Naturalis, 21:\n244–253.\n\n–––, 1992. “Naive and Refined Truth\nApproximation,” Synthese, 93: 299–341.\n\n–––, 2000. From Instrumentalism to\nConstructive Realism, Dordrecht: Kluwer.\n\nKvanvig, J., 1994. “A Critique of van Fraassen’s\nVoluntaristic Epistemology,” Synthese, 98:\n325–348.\n\nKyburg Jr., H., 1990. Science and Reason, Oxford: Oxford\nUniversity Press.\n\nLaudan, L., 1981. “A Confutation of Convergent\nRealism,” Philosophy of Science, 48: 19–49.\n\nLewis, D., 1980. “A Subjectivist’s Guide to Objective\nChance,” in R. Jeffrey (ed.), Studies in Inductive Logic and\nProbability, Berkeley CA: University of California Press, pp.\n263–293.\n\nLi, M. and Vitanyi, P., 1997. An Introduction to Kolmogorov\nComplexity and its Applications, New York: Springer.\n\nLipton, P., 1991. Inference to the Best Explanation,\nLondon: Routledge.\n\n–––, 1993. “Is the Best Good\nEnough?” Proceedings of the Aristotelian Society, 93:\n89–104.\n\n–––, 1998. “The Epistemology of\nTestimony,” Studies in History and Philosophy of\nScience, 29: 1–31.\n\n–––, 2004. Inference to the Best\nExplanation, (2nd ed.), London: Routledge.\n\nLombrozo, T., 2007. “Simplicity and Probability in Causal\nExplanation,” Cognitive Psychology, 55:\n232–257.\n\n–––, 2012. “Explanation and Abductive\nInference,” in K. Holyoak and R. Morrison (eds.), Oxford\nHandbook of Thinking and Reasoning, Oxford: Oxford University\nPress, pp. 260–276.\n\n–––, 2016. “Explanatory Preferences Shape\nLearning and Inference,” Trends in Cognitive Sciences,\n20: 748–759.\n\nLombrozo, T. and Gwynne, N. Z., 2014. “Explanation and\nInference: Mechanistic and Functional Explanations Guide Property\nGeneralization,” Frontiers in Human Neuroscience, 8.\ndoi:10.3389/fnhum.2014.00700\n\nMaher, P., 1992. “Diachronic Rationality,”\nPhilosophy of Science, 59: 120–141.\n\nMcAuliffe, W., 2015. “How Did Abduction Get Confused with\nInference to the Best Explanation?” Transactions of the\nCharles S. Peirce Society, 51: 300–319.\n\nMcCain, K. and Poston, T., 2014. “Why Explanatoriness is\nEvidentially Relevant,” Thought, 3: 145–153.\n\nMcGrew, T., 2003. “Confirmation, Heuristics, and Explanatory\nReasoning,” British Journal for the Philosophy of\nScience, 54: 553–567.\n\nMcMullin, E., 1992. The Inference that Makes Science,\nMilwaukee WI: Marquette University Press.\n\n–––, 1996. “Epistemic Virtue and Theory\nAppraisal,” in I. Douven and L. Horsten (eds.), Realism in\nthe Sciences, Leuven: Leuven University Press, pp.\n13–34.\n\nMoore, G. E., 1962. “Proof of an External World,” in\nhis Philosophical Papers, New York: Collier Books, pp.\n126–149.\n\nMoser, P., 1989. Knowledge and Evidence, Cambridge:\nCambridge University Press.\n\nMusgrave, A., 1988. “The Ultimate Argument for Scientific\nRealism,” in R. Nola (ed.), Relativism and Realism in\nScience, Dordrecht: Kluwer, pp. 229–252.\n\nNiiniluoto, I., 1998. “Verisimilitude: The Third\nPeriod,” British Journal for the Philosophy of Science,\n49: 1–29.\n\n–––, 1999. “Defending Abduction,”\nPhilosophy of Science, 66: S436–S451.\n\nOkasha, S., 2000. “Van Fraassen’s Critique of\nInference to the Best Explanation,” Studies in History and\nPhilosophy of Science, 31: 691–710.\n\nOlsson, E., 2005. Against Coherence, Oxford: Oxford\nUniversity Press.\n\nPargetter, R., 1984. “The Scientific Inference to Other\nMinds,” Australasian Journal of Philosophy, 62:\n158–163.\n\nPeirce, C. S. [CP]. Collected Papers of Charles Sanders\nPeirce, edited by C. Hartshorne, P. Weiss, and A. Burks,\n1931–1958, Cambridge MA: Harvard University Press.\n\nPoston, T., 2014. Reason and Explanation, Basingstoke:\nPalgrave Macmillan.\n\nPsillos, S., 1999. Scientific Realism: How Science Tracks\nTruth, London: Routledge.\n\n–––, 2000. “Abduction: Between Conceptual\nRichness and Computational Complexity,” in A. K. Kakas and P.\nFlach (eds.), Abduction and Induction: Essays on their Relation\nand Integration, Dordrecht: Kluwer, pp. 59–74.\n\n–––, 2004. “Inference to the Best\nExplanation and Bayesianism,” in F. Stadler (ed.), Induction\nand Deduction in the Sciences, Dordrecht: Kluwer, pp.\n83–91.\n\nPutnam, H., 1981. Reason, Truth and History, Cambridge:\nCambridge University Press.\n\nRoche, W. and Sober, E., 2013. “Explanatoriness is\nEvidentially Irrelevant, or Inference to the Best Explanation Meets\nBayesian Confirmation Theory,” Analysis, 73:\n659–668\n\n–––, 2014. “Explanatoriness and Evidence:\nA Reply to McCain and Poston,” Thought, 3:\n193–199.\n\nRussell, B., 1912. The Problems of Philosophy, Oxford:\nOxford University Press.\n\nSchupbach, J., 2014. “Is the Bad Lot Objection Just\nMisguided?” Erkenntnis, 79: 55–64.\n\nSchupbach, J. and Sprenger, J., 2011. “The Logic of\nExplanatory Power,” Philosophy of Science, 78:\n105–127.\n\nSchurz, G., 2008. “Patterns of Abduction,”\nSynthese, 164: 201–234.\n\nShalkowski, S., 2010. “IBE, GMR, and Metaphysical\nProjects,” in B. Hale and A. Hoffmann (eds.), Modality:\nMetaphysics, Logic, and Epistemology, Oxford: Oxford University\nPress, pp. 169–187.\n\nSkyrms, B., 1993. “A Mistake in Dynamic Coherence\nArguments?” Philosophy of Science, 60:\n320–328.\n\nSloman, S., 1994. “When Explanations Compete: The Role of\nExplanatory Coherence on Judgments of Likelihood,”\nCognition, 52: 1–21.\n\nSober, E., 2015. Ockham’s Razor: A User’s\nManual, Cambridge: Cambridge University Press.\n\nStanford, K., 2009. “Underdetermination of Scientific\nTheory,” in Stanford Encyclopedia of Philosophy (Winter\n2009 Edition), Edward N. Zalta (ed.), URL =\n <https://plato.stanford.edu/archives/win2009/entries/scientific-underdetermination/>.\n \nTeller, P., 1973. “Conditionalization and\nObservation,” Synthese, 26: 218–258.\n\nThagard, P., 1978. “The Best Explanation: Criteria for\nTheory Choice,” Journal of Philosophy, 75:\n76–92.\n\nvan Fraassen, B., 1980. The Scientific Image, Oxford:\nOxford University Press.\n\n–––, 1983. “Glymour on Evidence and\nExplanation,” in J. Earman (ed.), Testing Scientific\nTheories, Minneapolis: University of Minnesota Press, pp.\n165–176.\n\n–––, 1985. “Empiricism in the Philosophy\nof Science,” in P. Churchland and C. Hooker (eds.), Images\nof Science, Chicago IL: University of Chicago Press, pp.\n245–308.\n\n–––, 1989. Laws and Symmetry, Oxford:\nOxford University Press.\n\nVogel, J., 1990. “Cartesian Skepticism and Inference to the\nBest Explanation,” Journal of Philosophy, 87:\n658–666.\n\n–––, 2005. “The Refutation of\nSkepticism,” in M. Steup and E. Sosa (eds.), Contemporary\nDebates in Epistemology, Oxford: Blackwell Publishing, pp.\n72–84.\n\nWeintraub, R., 2013. “Induction and Inference to the Best\nExplanation,” Philosophical Studies, 166:\n203–216.\n\nWeisberg, J., 2009. “Locating IBE in the Bayesian\nFramework,” Synthese, 167: 125–143.\n\nWilliams, J. and Lombrozo, T., 2010. “The Role of\nExplanation in Discovery and Generalization: Evidence from Category\nLearning,” Cognitive Science, 34: 776–806.\n\nWilliamson, T., 2017. “Semantic Paradoxes and Abductive\nMethodology,” in B. Armour-Garb (ed.),\nReflections on the Liar, Oxford: Oxford University\nPress, pp. 325–346.",
+    "subHeadings": [
+      {
+        "href": "#AbdGenIde",
+        "subTitle": "1. Abduction: The General Idea",
+        "subItems": [
+          {
+            "href": "#DedIndAbd",
+            "subTitle": "1.1 Deduction, induction, abduction",
+            "subItems": []
+          },
+          {
+            "href": "#UbiAbd",
+            "subTitle": "1.2 The ubiquity of abduction",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#ExpAbd",
+        "subTitle": "2. Explicating Abduction",
+        "subItems": []
+      },
+      {
+        "href": "#StaAbd",
+        "subTitle": "3. The Status of Abduction",
+        "subItems": [
+          {
+            "href": "#Cri",
+            "subTitle": "3.1 Criticisms",
+            "subItems": []
+          },
+          {
+            "href": "#Def",
+            "subTitle": "3.2 Defenses",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#AbdVerBayConThe",
+        "subTitle": "4. Abduction versus Bayesian Confirmation Theory",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [],
+    "relatedEntries": [
+      {
+        "relId": "epistemology-bayesian/",
+        "relEntry": "epistemology: Bayesian",
+        "relEntryUrl": "https://plato.stanford.edu/entries/epistemology-bayesian/"
+      },
+      {
+        "relId": "induction-problem/",
+        "relEntry": "induction: problem of",
+        "relEntryUrl": "https://plato.stanford.edu/entries/induction-problem/"
+      },
+      {
+        "relId": "peirce/",
+        "relEntry": "Peirce, Charles Sanders",
+        "relEntryUrl": "https://plato.stanford.edu/entries/peirce/"
+      },
+      {
+        "relId": "scientific-explanation/",
+        "relEntry": "scientific explanation",
+        "relEntryUrl": "https://plato.stanford.edu/entries/scientific-explanation/"
+      },
+      {
+        "relId": "scientific-realism/",
+        "relEntry": "scientific realism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/scientific-realism/"
+      },
+      {
+        "relId": "simplicity/",
+        "relEntry": "simplicity",
+        "relEntryUrl": "https://plato.stanford.edu/entries/simplicity/"
+      },
+      {
+        "relId": "skepticism/",
+        "relEntry": "skepticism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/skepticism/"
+      },
+      {
+        "relId": "scientific-underdetermination/",
+        "relEntry": "underdetermination, of scientific theories",
+        "relEntryUrl": "https://plato.stanford.edu/entries/scientific-underdetermination/"
+      }
+    ]
+  },
+  {
+    "id": "abelard",
+    "url": "https://plato.stanford.edu/entries/abelard/",
+    "authors": [
+      "Peter King",
+      "Andrew Arlig"
+    ],
+    "title": "Peter Abelard",
+    "firstPublished": "2004-08-02T23:00:00.000Z",
+    "lastPublished": "2022-08-11T23:00:00.000Z",
+    "preamble": "Peter Abelard (1079–21 April 1142) [‘Abailard’ or\n‘Abaelard’ or ‘Habalaarz’ and so on] was the\npre-eminent philosopher and theologian of the twelfth century. The\nteacher of his generation, he was also famous as a poet and a\nmusician. Prior to the recovery of Aristotle, he brought the native\nLatin tradition in philosophy to its highest pitch. His genius was\nevident in all he did. He is, arguably, the greatest logician of the\nMiddle Ages and is equally famous as the first great nominalist\nphilosopher. He championed the use of reason in matters of faith (he\nwas the first to use ‘theology’ in its modern sense), and\nhis systematic treatment of religious doctrines are as remarkable for\ntheir philosophical penetration and subtlety as they are for their\naudacity. Abelard seemed larger than life to his contemporaries: his\nquick wit, sharp tongue, perfect memory, and boundless arrogance made\nhim unbeatable in debate—he was said by supporter and detractor\nalike never to have lost an argument—and the force of his\npersonality impressed itself vividly on all with whom he came into\ncontact. His luckless affair with Héloïse made him a\ntragic figure of romance, and his conflict with Bernard of Clairvaux\nover reason and religion made him the hero of the Enlightenment. For\nall his colourful life, though, his philosophical achievements are the\ncornerstone of his fame.",
+    "bibliography": "Bibliography\n\nPrimary texts in Latin\n\n\n\nCarmen ad Astralabium. Edited by J. M. A.\nRubingh-Bosscher in Peter Abelard: Carmen ad Astralabium, a\nCritical Edition. Groningen: phil. diss. Rijksuniversiteit\n1987.\n\nCollationes a.k.a. Dialogus inter Philosophum,\nIudaeum, et Christianum. Edited by Giovanni Orlandi, with\nintroduction, translation, and notes by John Marenbon, in Peter\nAbelard: Collationes, Oxford University Press 2001.\n\nCommentaria in Epistolam Pauli ad Romanos. Edited by\nEligius M. Buytaert in Petri Abaelardi opera theologica.\nCorpus christianorum (continuatio mediaevalis) Vol. 11. Brepols:\nTurnholt 1969, 389–340.\n\nDialectica. Edited by L. M. De Rijk in Petrus\nAbaelardus: Dialectica, Assen: Van Gorcum 1970 (second\nedition).\n\nEpistolae: Ep. 1 edited by Monfrin (see the entry below\nfor the Historia calamitatum); Epp. 2–5 edited by J. T.\nMuckle, Mediaeval Studies 15 (1953) 68–94; Epp.\n6–7, edited by J. T. Muckle, Mediaeval Studies 17\n(1955) 241–281; Ep. 8, edited by T. P. McLaughlin, Mediaeval\nStudies 18 (1956) 242–297; Epp. 9–14 edited by E. R.\nSmits in Peter Abelard: Letters IX–XIV, Groningen:\nRijksuniversiteit 1983; Ep. 15 edited by Josef Reiners, BGPTM 8 (1910)\n63–80; Ep. 16, edited by Victor Cousin and Charles Jourdain,\nPetri Abaelardi opera Vol. 1 (Paris 1849) 703–707,\ncorrected against Van Den Eynde, Antonianum 38 (1963) 219;\nEp. 17, edited by Charles Burnett, Mittellateinisch Jahrbuch\n21 (1986), 152–155; Apologia contra Bernardum (Ne iuxta\nBoethianum), edited by Eligius M. Buytaert in CCCM 12\n359–368; Epistola contra Bernardum edited by Raymond\nKlibansky, Medieval and Renaissance Studies 5 (1961),\n1–27; Confessio fidei “Uniuersis” edited by\nCharles Burnett, Mediaeval Studies 48 (1986),\n182–189.\n\nEthica seu Scito teipsum. Edited by R. M. Ilgner in\nPetri Abaelardi opera theologica. Corpus christianorum\n(continuatio mediaevalis) Vol. 190. Brepols: Turnholt 2001.\n\nExpositio orationis dominicae. Edited by Charles Burnett,\n“Expositio orationis dominicae ‘Multorum legimus\norationes’” in Révue Benedictine 95 (1985)\n60–72.\n\nExpositio symboli Apostolorum. Edited by Victor Cousin\nand Charles Jourdain, Petri Abaelardi opera Vol. 1 (Paris\n1849) 603–615.\n [Available online thanks to the Bibliothèque nationale de France].\n \nExpositio fidei in symbolum Athanasii. Edited by Victor\nCousin and Charles Jourdain, Petri Abaelardi opera Vol. 1\n(Paris 1849) 615–617.\n\nHexaëmeron. Edited by Mary F. Romig with the\nassistance of David Luscombe, in Corpus christianorum continuatio\nmediaevalis Vol.15. Brepols: Turnhout 2004.\n\nHistoria calamitatum. Edited by Jacques Monfrin in\nAbélard, Historia calamitatum: texte et commentaires,\nJ. Vrin: Paris 1974 (fourth edition), 62–109.\n\nHymnarius Paraclitensis. Edited by Chrysogonus Waddell in\nHymn Collections from the Paraclete Vol. 2. Trappist\nMonastery, Ky.: Gethsemani Abbey (Cistercian Liturgy series)\n1987.\n\nIntroductiones parvulorum. Edited by Mario Dal Pra in\nPietro Abelardo: Scritti di logica, Firenze 1969 (second\nedition).\n\nLogica ‘ingredientibus’ (LI):\n\n\n\nLI 1: Commentary on Porphyry’s Isagoge. Edited by\nBernhard Geyer in Beiträge zur Geschichte der Philosophie und\nTheologie des Mittelalters 21 (1). Aschendorff: Munster\n1919.\n\nLI 2: Commentary on Aristotle’s Categories. Edited\nby Bernhard Geyer in Beiträge zur Geschichte der Philosophie\nund Theologie des Mittelalters 21 (2). Aschendorff: Munster\n1921.\n\nLI 3: Commentary on Aristotle’s De interpretatione.\nEdited by Klaus Jacobi and Christian Strub, Corpus christianorum\ncontinuatio mediaevalis Vol.206. Brepols: Turnhout 2010.\n\nLI 7: Commentary on Boethius’s De topicis\ndifferentiis. Edited by Mario Dal Pra in Pietro Abelardo:\nScritti di logica, Firenze 1969 (second edition).\n \n\nLogica ‘nostrorum petitioni\nsociorum’. Commentary on Porphyry’s Isagoge.\nEdited by Bernhard Geyer in Beiträge zur Geschichte der\nPhilosophie und Theologie des Mittelalters 21 (4). Aschendorff:\nMunster 1933.\n\nPlanctus. Planctus 1, 4, 6: edited by Peter Dronke,\nPoetic Individality in the Middle Ages (London 1986).\nPlanctus 2, 5: edited by Giuseppe Vecchi, Pietro Abelardo, I\n“Planctus” (Modena 1951). Planctus 3: edited by\nWolfram von den Steinen, Mittellateinisches Jahrbuch 4\n(1967), 122–144. There are several modern recordings.\n\nProblemata Heloïssae cum Petri Abaelardi\nsolutionibus. Edited by Victor Cousin and Charles Jourdain,\nPetri Abaelardi opera Vol. 1 (Paris 1849):\n237–294.\n\nSententiae secundum Magistrum Petrum. Edited by Lorenzo\nMinio-Paluello in Twelfth-Century Logic: Texts and Studies\nVol. 2 (Abaelardiana inedita), Roma 1958.\n\nSermones. Edited by Paola De Santis in I sermoni di\nAbelardo per le monache del Paracleto, Leuven University Press\n2002. (Mediaevalia Lovaniensa ser. 1, studia 31.)\n\nSic et non. Edited by Blanche Boyer and Richard McKeon in\nPeter Abailard: Sic et Non. A Critical Edition. University of\nChicago Press 1977.\n\nSoliloquium. Edited by Charles Burnett in “Peter\nAbelard’s ‘Soliloquium’: A Critical Edition”\nin Studi Medievali 25 (1984), 857–894.\n\nTheologia ‘summi boni’. Edited by\nEligius M. Buytaert and Constant Mews in Petri Abaelardi opera\ntheologica. Corpus christianorum (continuatio mediaevalis) Vol.\n13. Brepols: Turnhout 1987.\n\nTheologia christiana. Edited by Eligius M. Buytaert in\nPetri Abaelardi opera theologica. Corpus christianorum\n(continuatio mediaevalis) Vol. 12. Brepols: Turnhout 1969.\n\nTheologia ‘scholarium’. Edited by\nEligius M. Buytaert and Constant Mews in Petri Abaelardi opera\ntheologica. Corpus christianorum (continuatio mediaevalis) Vol.\n13. Brepols: Turnhout 1987.\n\nTractatus de intellectibus. Edited by Patrick Morin in\nAbélard: Des intellections. Paris: J. Vrin 1994.\n\n\nPrimary texts in English translation\n\n\n\nFairweather, E. R., 1995, A Scholastic Miscellany,\nWestminster: John Knox Press. (Excerpt from Abelard’s commentary\non Romans.)\n\nKing, Peter, 1982, Peter Abailard and the Problem of\nUniversals in the Twelfth Century, Ph.D. Dissertation, Philosophy\nDepartment, Princeton University. (Volumes 2 contains a complete\ntranslation of Abelard’s Tractatus de\nintellectibus.)\n\nLuscombe, David, 1971, Ethics, Oxford: Oxford University\nPress. (Complete translation of Abelard’s Ethica.)\n\nMarenbon, John and Giovanni Orlandi (eds. and trans.), 2001,\nPeter Abelard: Collationes, Oxford: Clarendon. (Complete\ntranslation of Abelard’s Conversations.)\n\nMcCallum, James Ramsay, 1948, Abelard’s Christian\nTheology, Oxford: Blackwell. (Includes substantial selections\nfrom Abelard’s Theologia christiana.)\n\nMinnis, A. and Scott, A. B. (eds.), 1988, Medieval Literary\nTheory and Criticism 1100–1375, Oxford: Oxford University\nPress. (Includes Abelard’s preface to the Sic et\nnon.)\n\nPayer, Pierre, 1979, Peter Abelard: A Dialogue of a\nPhilosopher with a Jew and a Christian, Toronto: The Pontifical\nInstitute of Mediaeval Studies Publications.\n\nRadice, Elizabeth, 1974, The Letters of Abelard and\nHeloise, New York: Penguin Books.\n\nSpade, Paul Vincent, 1994, Five Texts on the Mediaeval Problem\nof Universals, Indianapolis: Hackett Publishing Company.\n(Abelard’s discussion of the problem of universals from his\nLogica ‘ingredientibus’.)\n\nSpade, Paul Vincent, 1995, Peter Abelard: Ethical\nWritings, Indianapolis: Hackett Publishing Company. (Complete\ntranslations of Abelard ‘s Ethics and\nConversations.)\n\nTweedale, Martin and Bosley, Richard, 1997, Issues in Medieval\nPhilosophy, Peterborough: Broadview Press. (Includes selections\nfrom Abelard on foreknowledge, universals, and ethics.)\n\n\nSelected Secondary Literature in English\n\n\n\nAllen, Julie, 1996, A Commentary on the Second Collatio of\nPeter Abailard’s Dialogus, Ph.D. Dissertation, Philosophy\nDepartment, University of Toronto.\n\nArlig, Andrew, 2007, “Abelard’s Assault on Everyday\nObjects”, American Catholic Philosophical Quarterly,\n81: 209–227.\n\n–––, 2012, “Peter Abelard on Material\nConstitution”, Archiv fur Geschichte der Philosophie,\n94: 119–146.\n\n–––, 2013, “Some Twelfth-century\nReflections on Mereological Essentialism”, Oxford Studies in\nMedieval Philosophy, 1: 83–112.\n\n–––, 2022, “Abelard and Other\nTwelfth-Century Thinkers on Social Constructions”,\nPhilosophies, 7(4), 84.\n [Arlig 2022 available online]\n \nAstroh, Michael, 2001, “Abelard on Modalities de re\nand de dicto”, in Potentialität und\nPossibilität. Modalaussagen in der Geschichte der\nMetaphysik, Thomas Buchheim, C. H. Kneepkens, and Kuno Lorenz\n(eds.), Stuttgart: Frommann Holzboog, 79–95\n\nBejczy, I., 2003, “Deeds Without Value: Exploring a Weak\nSpot in Abelard’s Ethics”, Recherches de\nthéologie et philosophie médiévale, 70:\n1–21.\n\nBinini, Irene, 2022, Possibility and Necessity in the Time of\nPeter Abelard, Leiden/Boston: Brill.\n\nBlackwell, Daniel, 1988, Non-Ontological Constructs: The\nEffects of Abaelard’s Logical and Ethical Theories on his\nTheology, Berne, Paris, New York: Peter Lang.\n\nBoler, John, 1963, “Abailard and the Problem of\nUniversals”, The Journal of the History of Philosophy,\n1: 104–126.\n\nBrower, Jeff, 1998, “Abelard’s Theory of Relations:\nReductionism and the Aristotelian Tradition”, The Review of\nMetaphysics, 51: 605–631.\n\n–––, 2004, “Trinity”, in The\nCambridge Companion to Abelard, J. Brower and K. Guilfoy (eds.):\n223–257.\n\nBrower, Jeff and Guilfoy, Kevin (eds.), 2004, The Cambridge\nCompanion to Abelard, New York: Cambridge University Press.\n\nFreddoso, Alfred, 1978, “Abailard on Collective\nRealism”, The Journal of Philosophy, 75:\n527–538.\n\nGracia, Jorge, 1984, Introduction to the Problem of\nIndividuation in the Early Middle Ages, Washington, D.C.:\nCatholic University of America Press.\n\nGuilfoy, Kevin, 1999, Abelard’s Theory of the\nProposition, Ph.D. Dissertation, Philosophy Department,\nUniversity of Washington.\n\n–––, 2004, “Mind and Cognition”, in\nJ. Brower and K. Guilfoy (eds.), 200–222.\n\nHenry, D. P., 1985, “Abelard’s Mereological\nTerminology”, in Mediaeval Semantics and Metaphysics,\nE. P. Bos (ed.), Ingenium: Nijmegen, 65–92.\n\nHause, Jeff, 2007, “Abelard on Degrees of Sinfulness”,\nAmerican Catholic Philosophical Quarterly, 81:\n251–270.\n\nJacobi, Klaus, 1983, “Abelard and Frege: the Semantics of\nWords and Propositions”, in Atti del Convegno Internazionale\ndi Storia della logica, V. Abrusci (ed.), Bologna: Ed. CLUEB,\n81–96.\n\n–––, 1986, “Peter Abelard’s\nInvestigations into the Meaning and Function of the Speech Sign\n‘Est’”, in The Logic of Being, Simo\nKnuutila and Jaakko Hintikka (eds.), Dordrecht: D. Reidel,\n145–180.\n\n–––, 2004, “Philosophy of Language”,\nin J. Brower and K. Guilfoy (eds.) 2004, 126–157.\n\nKing, Peter, 1982, Peter Abailard and the Problem of\nUniversals in the Twelfth Century, Ph.D. Dissertation, Philosophy\nDepartment, Princeton University.\n\n–––, 1992, “Peter Abelard\n(1079–1142)”, in The Dictionary of Literary\nBiography (Volume 115: Medieval Philosophers), Jeremiah Hackett\n(ed.), Detroit/London: Gale Research: 3–14.\n\n–––, 1995, “Abelard’s Intentionalist\nEthics”, The Modern Schoolman, 72: 213–231.\n [Preprint available online].\n \n–––, 2004, “Metaphysics”, in The\nCambridge Companion to Abelard, in J. Brower and K. Guilfoy\n(eds.), 65–125.\n [Preprint available online].\n \n–––, 2007a, “Abelard on Mental\nLanguage”, The American Catholic Philosophical\nQuarterly, 81: 169–187.\n\n–––, 2007b, “Abelard’s Answer to\nPorphyry”, in Documenti e studi sulla tradizione filosofica\nmedievale, 18: 249–70.\n [Preprint available online].\n \nKretzmann, Norman, 1982, “The Culmination of the Old Logic\nin Peter Abelard”, in Renaissance and Renewal in the Twelfth\nCentury, R. L. Benson and J. Constable (eds.), Cambridge, MA:\nHarvard University Press, 488–511.\n\nLenz, Martin, 2005, “Peculiar Perfection: Peter Abelard on\nPropositional Attitudes”, Journal of the History of\nPhilosophy, 43: 377–386.\n\n–––, 2007, “Are Thoughts and Sentences\nCompositional? A Controversy between Abelard and a Pupil of Alberic on\nthe Reconciliation of Ancient Theses on Mind and Language”,\nVivarium, 45: 169–188.\n\nLewis, Neil, 1987, “Determinate Truth in Abelard”,\nVivarium, 25: 81–109.\n\nLuscombe, David, 1969, The School of Peter Abelard,\nCambridge: Cambridge University Press.\n\nMann, William, 2004, “Ethics”, in J. Brower and K.\nGuilfoy (eds.), 279–304.\n\nMarenbon, John, 1997, The Philosophy of Peter Abelard,\nCambridge: Cambridge University Press.\n\n–––, 2006, “The Rediscovery of Peter\nAbelard’s Philosophy”, Journal of the History of\nPhilosophy, 44: 331–351.\n\n–––, 2013, Abelard in Four Dimensions: A\ntwelfth-century philosopher in his context and ours, Notre Dame:\nUniversity of Notre Dame Press.\n\nMartin, Christopher J., 1986, “William’s Wonderful\nMachine”, Journal of Philosophy, 83:\n564–572.\n\n–––, 1987, “Something Amazing About the\nPeripatetic of Le Pallet”, Argumentation, 1:\n420–436.\n\n–––, 2001, “Abaelard on Modality: Some\nPossibilities and Some Puzzles”, in Potentialität und\nPossibilität. Modalaussagen in der Geschichte der\nMetaphysik, Thomas Buchheim, C. H. Kneepkens, and Kuno Lorenz\n(eds.), Stuttgart: Frommann Holzboog, 97–122\n\n–––, 2004, “Logic”, in J. Brower and\nK. Guilfoy (eds.), 158–199.\n\nMews, Constant, 1987, “Aspects of the Evolution of Peter\nAbelard’s Thought on Signification and Predication”, in\nGilbert de Poitiers et ses contemporains, J. Jolivet and A.\nde Libera (eds.), Naples: Bibliopolis.\n\n–––, 2005, Abelard and Heloise, New\nYork: Oxford University Press.\n\nPinziani, Roberto, 2003, The Logical Grammar of Abelard.\nDordrecht: Kluwer Academic Publishers. (Translation of La\ngrammatica logica di Abelardo, Parma 1992.)\n\nDe Rijk, L. M., 1980, “The Semantical Impact of\nAbailard’s Solution of the Problem of Universals”, in\nPetrus Abaelardus: Person, Wirk, und Wirkung, Rudolf Thomas\n(ed.), Trier: Paulinus-Verlag, 139–152.\n\n–––, 1986, “Peter Abailard’s\nSemantics and his Doctrine of Being”, Vivarium, 24:\n85–127.\n\nTweedale, Martin, 1976, Abailard on Universals,\nAmsterdam: North-Holland.\n\nWilks, Ian, 1993, The Logic of Abelard’s\nDialectica, Ph.D. Dissertation, Philosophy Department, University\nof Toronto.\n\n–––, 1997, “The Role of Virtue Theory and\nNatural Law in Abelard’s Ethical Writings”,\nProceedings of the American Catholic Philosophical\nAssociation, 71: 137–149.\n\n–––, 1998, “Peter Abelard and the\nMetaphysics of Essential Predication”, Journal of the\nHistory of Philosophy, 36: 356–385.\n\n–––, 2008, “Peter Abelard and his\nContemporaries”, in Handbook of the History of Logic\n(Volume 2: Medieval and Renaissance Logic), Dov Gabbay and John Woods\n(eds.), Amsterdam: Elsevier, 85–155.",
+    "subHeadings": [
+      {
+        "href": "#LifWor",
+        "subTitle": "1. Life and Works",
+        "subItems": [
+          {
+            "href": "#Lif",
+            "subTitle": "1.1 Life",
+            "subItems": []
+          },
+          {
+            "href": "#Wor",
+            "subTitle": "1.2 Works",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#Met",
+        "subTitle": "2. Metaphysics",
+        "subItems": []
+      },
+      {
+        "href": "#Log",
+        "subTitle": "3. Logic",
+        "subItems": []
+      },
+      {
+        "href": "#Lan",
+        "subTitle": "4. Philosophy of Language",
+        "subItems": []
+      },
+      {
+        "href": "#Min",
+        "subTitle": "5. Philosophy of Mind",
+        "subItems": []
+      },
+      {
+        "href": "#Eth",
+        "subTitle": "6. Ethics",
+        "subItems": []
+      },
+      {
+        "href": "#The",
+        "subTitle": "7. Theology",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [
+      {
+        "title": "Pierre Abelard of Le Pallet",
+        "description": "(information and short biography)",
+        "url": "https://www.abelard.org/abelard/abel-hi.htm"
+      },
+      {
+        "title": "Abelard’s Logic and the Origins of Nominalism",
+        "description": ",\n by Raul Corazzon, which includes an annotated bibliography.",
+        "url": "http://www.ontology.co/abelard.htm"
+      },
+      {
+        "title": "Peter Abelard",
+        "description": ",\n by James E. Kiefer.",
+        "url": "http://justus.anglican.org/resources/bio/142.html"
+      },
+      {
+        "title": "Prologue",
+        "description": "to Abelard’s , by W.J. Lewis (and S.\nBarney), online at the Internet History Sourcebooks Project\n(Fordham).",
+        "url": "http://www.fordham.edu/halsall/source/Abelard-SicetNon-Prologue.html"
+      },
+      {
+        "title": "First Lecture on Abelard",
+        "description": "and\n ,\n by R. J. Kilcullen (Politics and International Relations, Macquarie\nUniversity).",
+        "url": "https://webarchive.nla.gov.au/wayback/20120503141653/http://pandora.nla.gov.au/pan/98441/20120504-0000/www.humanities.mq.edu.au/Ockham/x52t05.html"
+      },
+      {
+        "title": "Second Lecture on Abelard",
+        "description": "and\n ,\n by R. J. Kilcullen (Politics and International Relations, Macquarie\nUniversity).",
+        "url": "https://webarchive.nla.gov.au/wayback/20120503141653/http://pandora.nla.gov.au/pan/98441/20120504-0000/www.humanities.mq.edu.au/Ockham/x52t06.html"
+      },
+      {
+        "title": "Some older print editions and manuscripts",
+        "description": "(Gallica (gallica.bnf.fr), the website of the Bibliothèque\nnationale de France, now has images of several older print editions\n(including Cousin’s still valuable editions) and a few\nmanuscripts, which in some cases are the only known surviving copies\nof those works)",
+        "url": "https://gallica.bnf.fr/accueil/?mode=desktop"
+      },
+      {
+        "title": "Logicalia Medievalia",
+        "description": ",\n website maintained by Caterina Tarlazzi (Ca’ Foscari University\nof Venice), which aims to draw together recent research on Latin\nlogical texts before 1220 with particular attention to research on\nWilliam of Champeaux and Peter Abelard.",
+        "url": "https://pric.unive.it/projects/logicalia-medievalia/home#c2459"
+      }
+    ],
+    "relatedEntries": [
+      {
+        "relId": "aristotle-logic/",
+        "relEntry": "Aristotle, General Topics: logic",
+        "relEntryUrl": "https://plato.stanford.edu/entries/aristotle-logic/"
+      },
+      {
+        "relId": "mereology-medieval/",
+        "relEntry": "mereology: medieval",
+        "relEntryUrl": "https://plato.stanford.edu/entries/mereology-medieval/"
+      },
+      {
+        "relId": "relations-medieval/",
+        "relEntry": "relations: medieval theories of",
+        "relEntryUrl": "https://plato.stanford.edu/entries/relations-medieval/"
+      },
+      {
+        "relId": "medieval-syllogism/",
+        "relEntry": "syllogism: medieval theories of",
+        "relEntryUrl": "https://plato.stanford.edu/entries/medieval-syllogism/"
+      },
+      {
+        "relId": "universals-medieval/",
+        "relEntry": "universals: the medieval problem of",
+        "relEntryUrl": "https://plato.stanford.edu/entries/universals-medieval/"
+      },
+      {
+        "relId": "william-champeaux/",
+        "relEntry": "William of Champeaux",
+        "relEntryUrl": "https://plato.stanford.edu/entries/william-champeaux/"
+      }
+    ]
+  },
+  {
+    "id": "abhidharma",
+    "url": "https://plato.stanford.edu/entries/abhidharma/",
+    "authors": [
+      "Noa Ronkin"
+    ],
+    "title": "Abhidharma",
+    "firstPublished": "2010-08-15T23:00:00.000Z",
+    "lastPublished": "2022-05-31T23:00:00.000Z",
+    "preamble": "The first centuries after Śākyamuni Buddha’s death saw\nthe rise of multiple schools of thought and teacher lineages within\nthe Buddhist community as it spread throughout the Indian\nsubcontinent. These new forms of scholarly monastic communities had\ndistinct theoretical and practical interests and, in their efforts to\norganize, interpret, and reexamine the Buddha’s scattered\nteachings, they developed a particular system of thought and method of\nexposition called Abhidharma (Pali, Abhidhamma). The Sanskrit term\nabhidharma seems to derive from the expression\n“concerning (abhi) the teaching(s) (Skt.,\ndharma, Pali, dhamma).” For the Buddhist\nexegetical tradition, however, the term means approximately\n“higher” or “further” teaching, and it refers\nboth to the doctrinal investigations of the new scholastic movement\nand to the body of texts yielded by its systematic exposition of\nBuddhist thought. This body of literature includes the third of the\n“three baskets” (Skt., tripiṭaka, Pali,\ntipiṭaka) of the Buddhist canon, namely, the\nAbhidharma-piṭaka (Pali,\nAbhidhamma-piṭaka), its commentaries, and later\nexegetical texts.\n\n\nBoth as an independent literary genre and a branch of thought and\ninquiry, Abhidharma is to be contrasted with Sūtrānta, the\nsystem of the Buddha’s discourses (Skt., sūtras,\nPali, suttas). Unlike the earlier Buddhist discourses that\nare colloquial in nature, the Abhidharma method presents the\nBuddha’s teachings in technical terms that are carefully defined\nto ensure analytical exactitude. In content, Abhidharma is distinctive\nin its efforts to provide the theoretical counterpart to the Buddhist\npractice of meditation and, more broadly, a systematic account of\nsentient experience. It does so by analyzing conscious\nexperience—and in this sense one’s\n“world”—into its constituent mental and physical\nevents (Skt., dharmā, Pali, dhammā,\nhereafter dharmas/dhammas respectively). The overarching\ninquiry subsuming both the analysis of dharmas into multiple\ncategories and their synthesis into a unified structure by means of\ntheir manifold relationships of causal conditioning is referred to as\nthe “dharma theory.” The exhaustive\ninvestigations into the nature and interaction of dharmas\nextended into the fields of metaphysics, epistemology, and ontology,\nand generated doctrinal controversies among different Buddhist\nschools. The Abhidharma analysis of and methods of argumentation about\nthese controversies provided the framework of reference and defined\nthe agenda for the Mahāyāna schools of Madhyamaka and\nYogācāra. As a distinct doctrinal movement, then, Abhidharma\nhad a remarkable impact on subsequent Buddhist thought and gave rise\nto Buddhist systematic philosophy and hermeneutics.",
+    "bibliography": "Bibliography\n\nPrimary Sources\n\n\nThe texts are ordered according to the Pali/Sanskrit alphabet.\nReferences to Pali texts are to the editions of the Pali Text Society\nunless noted otherwise.\n\n\n\n[A] Aṅguttara-nikāya\n\n[Dhs-a] Atthasālinī\n(Dhammasaṅgaṇi commentary)\n\n[Abhidh-av] Abhidhammāvatāra\n\n[Abhidh-s] Abhidhammatthasaṅgaha\n\n[Akb] Abhidharmakośabhāṣya, P. Pradhan,\n(ed.), Patna: Jayaswal Research Institute, 1975\n\n[Kv] Kathāvatthu\n\n[Dhs] Dhammasaṅgaṇi\n\n[Dhs-mṭ]\nDhammasaṅgaṇi-mūlaṭīkā\n(Dhammasaṅgaṇi sub-commentary)\n\n[Nett] Nettippakaraṇa\n\n[Paṭis] Paṭisambhidāmagga\n\n[Ps] Papañcasūdanī\n(Majjhima-nikāya commentary)\n\n[Peṭ] Peṭakopadesa\n\n[Bv] Buddhavaṃsa\n\n[M] Majjhima-nikāya\n\n[Mp] Manorathapūraṇī\n(Aṅguttara-nikāya commentary)\n\n[Mhv] Mahāvaṃsa\n\n[Mil] Milindapañha\n\n[Vin] Vinaya-piṭaka\n\n[Vibh] Vibhaṅga\n\n[Vibh-mṭ]\nVibhaṅga-mūlaṭīkā\n(Vibhaṅga sub-commentary)\n\n[Vism] Visuddhimagga, H.C. Warren (ed.), Harvard Oriental\nSeries, Cambridge: Harvard University Press, 1950\n\n[Vism-mhṭ]\nVisuddhimagga-mahāṭīkā\n(Visuddhimagga commentary)\n\n[S] Saṃyutta-nikāya\n\n[Paṭis-a] Saddhammappakāsinī\n(Paṭisambhidāmagga commentary)\n\n[Vibh-a] Sammohavinodanī (Vibhaṅga\ncommentary)\n\n[Spk] Sāratthappakāsinī\n(Saṃyutta-nikāya commentary)\n\n[Sv] Sumaṅgalavilāsinī\n(Dīgha-nikāya commentary)\n\n\nSecondary Sources\n\n\n\nBronkhorst, J., 2016, “Abhidharma and Indian\nThinking,” in Text, History, and Philosophy: Abhidharma\nAcross Buddhist Scholastic Traditions, B. Dessein & W. Teng\n(eds.), Leiden: Brill, pp. 29–46.\n\nCollins, S., 1992, “Nirvāṇa, Time, and\nNarrative,” History of Religions, 31:\n215–46.\n\nConze, E., 1962, Buddhist Thought in India: Three Phases of\nBuddhist Philosophy, London: George Allen & Unwin.\n\nCousins, L., 1981, “The Paṭṭhāna\nand the Development of the Theravādin Abhidhamma,”\nJournal of the Pali Text Society, 9: 22–46 .\n\n–––, 1983, “Pali Oral Literature,”\nin Buddhist Studies: Ancient and Modern, P. Denwood and A.\nPiatigorsky (eds.), London: Curzon, pp. 1–11.\n\n–––, 1991, “The ‘Five Points’\nand the Origins of the Buddhist Schools,” in The Buddhist\nForum II, T. Skorupski (ed.), London: School of Oriental and\nAfrican Studies, University of London, pp. 27–60.\n\n–––, 2001, “On the Vibhajjavādins:\nthe Mahiṃsāsaka, Dhammaguttaka, Kassapiya and\nTambapaṇṇiya branches of the ancient Theriyas,”\nBuddhist Studies Review, 18: 131–182.\n\nCox, C., 1995, Disputed Dharmas: Early Buddhist Theories on\nExistence—an annotated translation of the section on factors\ndissociated from thought from Saṅghabhadra’s\nNyāyānusāra, Tokyo: Studia Philologica Buddhica\nXI, The International Institute for Buddhist Studies.\n\n–––, 2004A, “From Category to Ontology:\nThe Changing Role of Dharma in Sarvāstivāda\nAbhidharma,” Journal of Indian Philosophy, 32:\n543–597.\n\n–––, 2004B, “Mainstream Buddhist\nSchools,” in Encyclopedia of Buddhism, R. Buswell\n(ed.), NY: McMillan, pp. 501–507.\n\n–––, 2009, “What’s in a Name? School\nAffiliation in an Early Buddhist Gāndhārī\nManuscript,” Bulletin of the Asia Institute, 23:\n53–63.\n\nDavidson, D., 2001, Essays on Actions and Events, Oxford:\nClarendon Press.\n\nDessein, B., 2016, “Abhidharma as Rational Inquiry,”\nin Text, History, and Philosophy: Abhidharma Across Buddhist\nScholastic Traditions, B. Dessein & W. Teng (eds.), Leiden:\nBrill, pp. 1–26.\n\nDreyfus, G., 1997, Recognizing Reality:\nDharmakīrti’s Philosophy and its Tibetan\nInterpretations, Albany: SUNY Press.\n\nFrauwallner, E., 1956, The Earliest Vinaya and the Beginnings\nof Buddhist Literature, trans. L. Petech, Rome: Is. M.E.\n\nGethin, R., 1992A, The Buddhist Path to Awakening: A Study of\nbodhi-pakkhiyā dhammā, Leiden: E.J. Brill.\n\n–––, 1992B, “The\nmātikās: Memorization, Mindfulness, and the\nList,” in In the Mirror of Memory: Reflections on\nMindfulness and Remembrance in Indian and Tibetan Buddhism, J.\nGyatso (ed.), New York: SUNY Press, pp. 149–172.\n\n–––, 1994, “Bhavaṅga and\nRebirth According to the Abhidhamma,” in The Buddhist Forum\nIII, T. Skorupski and U. Pagel (eds.), London: School of Oriental\nand African Studies, University of London, pp. 11–35.\n\n–––, 1997, “Cosmology and Meditation: from\nthe Agañña-sutta to the\nMahāyāna,” History of Religions, 36:\n183–217.\n\n–––, 1998: The Foundations of Buddhism,\nOxford and New York: Oxford University Press.\n\n–––, 2004, “He Who Sees Dhamma Sees\nDhammas: Dhamma in Early Buddhism,” Journal of Indian\nPhilosophy, 32: 513–542.\n\n–––, 2017, “Body, Mind and Sleepiness: On\nthe Abhidharma Understanding of Styāna and Middha,”\nJournal of the International College for Postgraduate Buddhist\nStudies, 21: 254–216.\n\n–––, 2022, “Abhidhamma: Theravāda\nthought in relation to Sarvāstivāda Thought,” in\nRoutledge Handbook of Theravāda Buddhism, S. Berkwitz\n& A. Thompson, (eds.), Oxon and New York: Routledge, pp.\n227–242.\n\nGombrich, R., 1996, How Buddhism Began: The Conditioned\nGenesis of the Early Teachings, London and New Jersey: Athlone\nPress.\n\n–––, 2009, What the Buddha Thought,\nLondon: Equinox.\n\nHinüber, Oskar von, 1978, “On the Tradition of\nPāli Texts in India, Ceylon and Burma,” in Buddhism in\nCeylon and Studies on Religious Syncretism in Buddhist Countries\n(Symposien zur Buddhismusforschung, I), H. Bechert (ed.),\nGöttingen: Vandenhoeck and Ruprecht, pp. 48–57.\n\n–––, 1996, A Handbook of Pāli\nLiterature, Berlin: Walter de Gruyter.\n\nHorner, I.B., 1941, “Abhidhamma abhivinaya,” The\nIndian Historical Quarterly, 17: 291–310.\n\nJayatilleke, K., 1963, Early Buddhist Theory of\nKnowledge, Delhi: Motilal Banarsidass.\n\nKalupahana, D., 1961, “A Prolegomena to the Philosophy of\nRelations in Buddhism,” University of Ceylon Review,\n19: 167–194.\n\nKarunadasa, Y., 1996, The Dhamma Theory: Philosophical\nCornerstone of the Abhidhamma, The Wheel Publications No.\n412/413, Kandy: Buddhist Publication Society.\n [Preprint available online]\n \n–––, 2010, Theravāda Abhidhamma: Its\nInquiry into the Nature of Conditioned Reality, Hong Kong: Centre\nfor Buddhist Studies, University of Hong Kong, HKU: CBS publication\nseries.\n\nKim, W.D., 1999, The Theravādin Doctrine of\nMomentariness: A Survey of its Origins and Development,\nunpublished D.Phil. thesis, University of Oxford.\n\nKragh, Ulrich T., 2002, “The Extant Abhidharma\nLiterature,” Indian International Journal of Buddhist\nStudies, 3: 123–167.\n\nLamotte, E., 1988, History of Indian Buddhism: From the\nOrigins to the Śaka Era, trans. Sara Webb-Boin, Paris:\nLouvain-la-Neuve.\n\nNorman, K. R., 1983, Pāli Literature: Including the\nCanonical Literature in Prakrit and Sanskrit of All the\nHīnayāna Schools of Buddhism, Wiesbaden: Otto\nHarrassowitz.\n\nNyanaponika Thera, 1998, Abhidhamma Studies: Buddhist\nExplorations of Consciousness and Time, Boston: Wisdom\nPublications.\n\nObeyesekere, G., 1991, “Myth, History and Numerology in the\nBuddhist Chronicles,” in The Dating of the Historical Buddha\nPart 1, H. Bechert (ed.), Göttingen: Vandenhoeck and\nRuprecht, pp. 152–82.\n\nRonkin, N., 2005, Early Buddhist Metaphysics: The Making of a\nPhilosophical Tradition, (Oxford Centre for Buddhist Studies\nMonograph Series), London and New York: Routledge-Curzon.\n\nRospatt, A. von, 1995, The Buddhist Doctrine of Momentariness:\nA Survey of the Origins and Early Phase of this Doctrine up to\nVasubandhu, Stuttgart: Franz Steiner Verlag.\n\nWaldron, W., 2002, “Buddhist Steps to an Ecology of Mind:\nThinking about ‘Thoughts without a Thinker’,”\nThe Eastern Buddhist, 34: 1–52.\n\n–––, 2003, The Buddhist Unconscious: the\nālaya-vijñāna in the Context of Indian Buddhist\nThought, London and New York: Routledge-Curzon.\n\nWillemen, C., B. Dessein, and C. Cox, 1998,\nSarvāstivāda Buddhist Scholasticism, Leiden:\nBrill.\n\nWilliams, P., 1981, “On the Abhidharma Ontology,”\nJournal of Indian Philosophy, 9: 227–257.\n\nWynne, A., 2019, “Theriya Networks and the Circulation of\nthe Pali Canon in South Asia: The Vibhajjavādins\nReconsidered,” in Buddhist Path, Buddhist Teachings: Studies\nin Memory of L.S. Cousins, N. Appleton & P. Harvey (eds.),\nSheffield: Equinox Publishing, pp. 269–283.",
+    "subHeadings": [
+      {
+        "href": "#AbhOriTex",
+        "subTitle": "1. Abhidharma: its origins and texts",
+        "subItems": [
+          {
+            "href": "#LitStyGen",
+            "subTitle": "1.1 Literary style and genre",
+            "subItems": []
+          },
+          {
+            "href": "#AbhExeDhaDha",
+            "subTitle": "1.2 Abhidharma exegesis: from Dharma to dharmas",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#DhaTaxMetExp",
+        "subTitle": "2. The dharma taxonomy: a metaphysics of experience",
+        "subItems": []
+      },
+      {
+        "href": "#TimImpMom",
+        "subTitle": "3. Time: from impermanence to momentariness",
+        "subItems": []
+      },
+      {
+        "href": "#IntNatBetCatOnt",
+        "subTitle": "4. Intrinsic nature: between categorization and ontology",
+        "subItems": []
+      },
+      {
+        "href": "#CauExiFun",
+        "subTitle": "5. Causation: existence as functioning",
+        "subItems": []
+      },
+      {
+        "href": "#EpiPerTheConPro",
+        "subTitle": "6. Epistemology: Perception and the theory of the consciousness process",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [
+      {
+        "title": "Access to Insight",
+        "description": "[Theravāda only]",
+        "url": "http://www.accesstoinsight.org"
+      },
+      {
+        "title": "BuddhaNet",
+        "description": "",
+        "url": "http://www.buddhanet.net/"
+      },
+      {
+        "title": "Digital Pali Canon of the Vipassana Research Institute",
+        "description": "",
+        "url": "http://www.tipitaka.org/index.shtml"
+      },
+      {
+        "title": "Digital Sanskrit Buddhist Canon",
+        "description": "",
+        "url": "http://www.dsbcproject.org/"
+      }
+    ],
+    "relatedEntries": [
+      {
+        "relId": "atomism-modern/",
+        "relEntry": "atomism: 17th to 20th century",
+        "relEntryUrl": "https://plato.stanford.edu/entries/atomism-modern/"
+      },
+      {
+        "relId": "atomism-ancient/",
+        "relEntry": "atomism: ancient",
+        "relEntryUrl": "https://plato.stanford.edu/entries/atomism-ancient/"
+      },
+      {
+        "relId": "consciousness-intentionality/",
+        "relEntry": "consciousness: and intentionality",
+        "relEntryUrl": "https://plato.stanford.edu/entries/consciousness-intentionality/"
+      },
+      {
+        "relId": "contradiction/",
+        "relEntry": "contradiction",
+        "relEntryUrl": "https://plato.stanford.edu/entries/contradiction/"
+      },
+      {
+        "relId": "dharmakiirti/",
+        "relEntry": "Dharmakīrti",
+        "relEntryUrl": "https://plato.stanford.edu/entries/dharmakiirti/"
+      },
+      {
+        "relId": "epistemology/",
+        "relEntry": "epistemology",
+        "relEntryUrl": "https://plato.stanford.edu/entries/epistemology/"
+      },
+      {
+        "relId": "kyoto-school/",
+        "relEntry": "Japanese Philosophy: Kyoto School",
+        "relEntryUrl": "https://plato.stanford.edu/entries/kyoto-school/"
+      },
+      {
+        "relId": "madhyamaka/",
+        "relEntry": "Madhyamaka",
+        "relEntryUrl": "https://plato.stanford.edu/entries/madhyamaka/"
+      },
+      {
+        "relId": "mind-indian-buddhism/",
+        "relEntry": "mind: in Indian Buddhist Philosophy",
+        "relEntryUrl": "https://plato.stanford.edu/entries/mind-indian-buddhism/"
+      },
+      {
+        "relId": "nagarjuna/",
+        "relEntry": "Nāgārjuna",
+        "relEntryUrl": "https://plato.stanford.edu/entries/nagarjuna/"
+      },
+      {
+        "relId": "saantarak-sita/",
+        "relEntry": "Śāntarakṣita",
+        "relEntryUrl": "https://plato.stanford.edu/entries/saantarak-sita/"
+      },
+      {
+        "relId": "vasubandhu/",
+        "relEntry": "Vasubandhu",
+        "relEntryUrl": "https://plato.stanford.edu/entries/vasubandhu/"
+      }
+    ]
+  },
+  {
+    "id": "abilities",
+    "url": "https://plato.stanford.edu/entries/abilities/",
+    "authors": [
+      "John Maier"
+    ],
+    "title": "Abilities",
+    "firstPublished": "2010-01-26T00:00:00.000Z",
+    "lastPublished": "2020-10-07T23:00:00.000Z",
+    "preamble": "In the accounts we give of one another, claims about our\nabilities appear to be indispensable. Some abilities are so\nwidespread that many who have them take them for granted, such as the\nability to walk, or to write one’s name, or to tell a hawk from a\nhandsaw. Others are comparatively rare and notable, such as the\nability to hit a Major League fastball, or to compose a symphony, or\nto tell an elm from a beech. In either case, however, when we ascribe\nsuch abilities to one another we have the impression that we are\nmaking claims that, whether they are worth saying or not, are at least\nsometimes true. The impression of truth exerts a pressure towards\ngiving a philosophical theory of ability. It is not an option, at\nleast at the outset, to dismiss all our talk of ability as fiction or\noutright falsehood. A theory of ability can be reasonably expected to\nsay what it is to have an ability in a way that vindicates the\nappearance of truth. Such a theory will deserve the name\n‘philosophical’ insofar as it gives an account, not of\nthis or that range of abilities, but of abilities generally.\n\n\nThis article falls into three parts. The first part, Sections 1 and 2,\nstates a framework for discussing philosophical theories of ability.\nSection 1 will say more about the distinction between abilities and\nother powers of agents and objects. Section 2 will make some formal\ndistinctions that are helpful for framing any theory of ability. The\nsecond part, Sections 3–5, surveys theories of ability that have\nbeen defended in the philosophical literature. Section 3 concerns\nthe most prominent kind of theory, on which abilities are to be\nunderstood in terms of a hypothetical relating an agent’s actions\nto her volitions. Section 4 concerns theories that are not\nhypothetical in this way, but that nonetheless retain the basic\nreductive orientation of hypothetical theories. Section 5 then\ndiscusses various alternative theories of ability that have been\nproposed in the recent literature. The third part, Section 6, turns to\nthe relationship between a theory of ability and the free will\ndebates. Such debates often involve claims about agents’\nabilities, and many have hoped that getting clearer on abilities\nthemselves could resolve, or at least shed light on, such debates. The\naim of this last section will be to assess whether these hopes are\nreasonable ones.",
+    "bibliography": "Bibliography\n\n\n\nAlbritton, Rogers, 1985. “Freedom of Will and Freedom of\nAction,” Proceedings and Addresses of the American\nPhilosophical Association, 59: 239–251.\n\nAlvarez, Maria, 2013. “Agency and Two-Way Powers,”\nProceedings of the Aristotelian Society, 113:\n101–121.\n\nAustin, J.L., 1956. “Ifs and Cans,” Proceedings of\nThe British Academy, 42: 107–132.\n\nBeebee, Helen, Whittle, Ann, and Svedberg, Maria, 2020.\n“Nihil Obstat: Lewis’s Compatibilist Account of\nAbilities,” The Monist, 103: 245–261.\n\nBengson, John and Moffett, Marc (eds.), 2011. Know How: Essays\non Mind, Knowledge, and Action, Oxford: Oxford University\nPress.\n\nBennett, Jonathan, 2003. A Philosophical Guide to\nConditionals, Oxford: Oxford University Press.\n\nBhatt, Rajesh, 1999. Covert Modality in Non-Finite\nContexts, Ph.D. Dissertation, University of Pennsylvania.\n[Bhatt 1999 available online]\n \nBrown, Mark, 1988. “On The Logic of Ability,”\nJournal of Philosophical Logic, 17: 1–26.\n\nCarnap, Rudolf, 1936 & 1937. “Testability and\nMeaning,” Philosophy of Science, 3: 419–471,\n4:1–40.\n\nCartwright, Nancy, 1994. Nature’s Capacities and Their\nMeasurement, Oxford: Oxford University Press.\n\nClarke, Randolph, 2009. “Dispositions, Abilities to Act, and\nFree Will: The New Dispositionalism,” Mind, 118:\n323–351.\n\nCurley, Edward, 1984. “Descartes on the Creation of the\nEternal Truths,” The Philosophical Review, 93:\n569–597.\n\nCyr, Taylor and Swenson, Philip, 2019. “Moral Responsibility\nwithout General Ability,” The Philosophical Quarterly,\n69: 22–40.\n\nDavidson, Donald, 1963. “Actions, Reasons, Causes,” in\nDavidson 1980: 3–19\n\n–––, 1973. “Freedom to Act,” in\nDavidson 1980: 63–81.\n\n–––, 1980. Essays on Actions and\nEvents, Oxford: Oxford University Press.\n\nFara, Michael, 2008. “Masked Abilities and\nCompatibilism,” Mind, 117: 843–865.\n\nFischer, John Martin, 1979. “Lehrer’s New Move:\n‘Can’ in Theory and Practice,” Theoria, 45:\n49–62.\n\nFischer, John Martin and Ravizza, Mark, 1998. Responsibility\nand Control: A Theory of Moral Responsibility, Cambridge:\nCambridge University Press.\n\nFrankfurt, Harry, 1969. “Alternate Possibilities and Moral\nResponsibility,” The Journal of Philosophy, 66:\n829–839.\n\nGettier, Edmund, 1963. “Is Justified True Belief\nKnowledge?”, Analysis, 23: 121–123.\n\nGibson, James J., 1979. The Ecological Approach to Visual\nPerception, Boston: Houghton Mifflin.\n\nGinet, Carl, 1980. “The Conditional Analysis of\nFreedom,” in van Inwagen (ed.), Time and Cause: Essays\nPresented to Richard Taylor, Dordrecht: D. Reidel.\n\nGlick, Ephraim. 2012 “Abilities and Know-How\nAttributions,” in Brown and Gekken (eds.), Knowledge\nAscriptions, Oxford: Oxford University Press.\n\nGoodman, Nelson, 1954. Fact, Fiction and Forecast,\nCambridge, Mass.: Harvard University Press.\n\nGreco, John, 2010. Achieving Knowledge: A Virtue-Theoretic\nAccount of Epistemic Normativity, Cambridge: Cambridge University\nPress.\n\nHacquard, Valentine, 2006. Aspects of Modality, Ph.D.\nDissertation, Massachusetts Institute of Technology.\n[Hacquard 2006 available online]\n \nHonoré, A.M., 1964. “Can and Can’t,”\nMind, 73: 463–479.\n\nHume, David, 1748. An Enquiry Concerning Human\nUnderstanding, Beauchamp (ed.), Oxford: Oxford University Press,\n1999.\n\nJackson, Frank, 1998. From Metaphysics to Ethics, Oxford:\nOxford University Press.\n\nJaster, Romy, 2020. Agents’ Abilities, Berlin: De\nGruyter.\n\nJohnston, Mark, 1992. “How to Speak of the Colors,”\nPhilosophical Studies, 68: 221–263.\n\nKarttunen, Lauri, 1977. “Syntax and Semantics of\nQuestions,” Linguistics and Philosophy, 1:\n3–44.\n\nKenny, Anthony, 1975. Will, Freedom, and Power, Oxford:\nBlackwell.\n\nKratzer, Angelika, 1977. “What ‘Must’ and\n‘Can’ Must and Can Mean,” Linguistics and\nPhilosophy, 1: 337–355.\n\n–––, 1981. “The Notional Category of\nModality,” in Words, Worlds, and Contexts: New Approaches in\nWord Semantics, Eikmeyer and Rieser (eds.), Berlin: de\nGruyter.\n\n–––, 2012. Modals and Conditionals: New and\nRevised Perspectives, Oxford: Oxford University Press.\n\nLehrer, Keith, 1968. “Cans without Ifs,”\nAnalysis, 29: 29–32.\n\n–––, 1976. “‘Can’ in Theory\nand Practice: A Possible World Analysis,” in Brand and Walton\n(eds.), Action Theory, Dordrecht: D. Reidel:\n241–270.\n\nLewis, David, 1973. Counterfactuals, Cambridge, Mass.:\nHarvard University Press.\n\n–––, 1976. “The Paradoxes of Time\nTravel,” In Philosophical Papers, Volume 2, Oxford:\nOxford University Press, 1986, 67–80.\n\n–––, 1990. “What Experience\nTeaches,” in Papers in Metaphysics and Epistemology,\nCambridge: Cambridge University Press, 1999, 262–290.\n\n–––, 2020. “Nihil Obstat: An Analysis of\nAbility,” The Monist, 103: 241–244.\n\nMaier, John, 2015. “The Agentive Modalities,”\nPhilosophy and Phenomenological Research, 90:\n113–134.\n\nMakin, Stephen, 2006. Metaphysics, Book Θ, Oxford:\nOxford University Press.\n\nMandelkern, Matthew, Schultheis, Ginger, and Boylan, David, 2017.\n“Agentive Modals,” The Philosophical Review, 126:\n301–343.\n\nManley, David and Wasserman, Ryan, 2008. “On Linking\nDispositions and Conditionals,” Mind, 117:\n59–84.\n\nMartin, C.B., 1996. “Dispositions and Conditionals,”\nThe Philosophical Quarterly, 44: 1–8.\n\nMcGeer, Victoria, 2018. “Intelligent Capacities,”\nProceedings of the Aristotelian Society, 118:\n347–376.\n\nMele, Alfred, 2002. “Agents’ Abilities,”\nNoûs, 37: 447–470.\n\nMillikan, Ruth, 2000. On Clear and Confused Ideas,\nCambridge: Cambridge University Press.\n\nNelkin, Dana, 2011. Making Sense of Freedom and\nResponsibility, Oxford: Oxford University Press.\n\nNoë, Alva, 2005. “Against Intellectualism,”\nAnalysis, 65: 278–290.\n\nPeacocke, Christopher, 1999. Being Known, Oxford: Oxford\nUniversity Press.\n\nPryor, James, 2000. “The Skeptic and the Dogmatist,”\nNoûs, 34: 517–549.\n\nReid, Thomas, 1788/2010. Essays on the Active Powers of\nMan, Haakonssen and Harris (eds.), Edinburgh: Edinburgh\nUniversity Press.\n\nRobb, Catherine, forthcoming. “Talent\nDispositionalism,” Synthese, first online 03 February\n2020. doi:10.1007/s11229-020-02559-6\n\nRyle, Gilbert, 1949. The Concept of Mind, London:\nHutchinson.\n\nScarantino, Andrea, 2003. “Affordances Explained,”\nPhilosophy of Science, 70: 949–961.\n\nSchwarz, Wolfgang, 2020. “Ability and Possibility,”\nPhilosophers’ Imprint, 20(6).\n[Schwarz 2020 available online]\n\nSpencer, Jack, 2017. “Able to Do the Impossible,”\nMind, 126: 466–497.\n\nSmith, Michael, 2003. “Rational Capacities,” in Stroud\nand Tappolet (eds.), Weakness of Will and Practical\nIrrationality, Oxford: Oxford University Press: 17–38.\n\nSosa, Ernest. 2007. A Virtue Epistemology: Apt Belief and\nReflective Knowledge (Volume 1), Oxford: Oxford University\nPress.\n\nStanley, Jason, 2011. Know How, Oxford: Oxford University\nPress.\n\nStanley, Jason and Williamson, Timothy, 2001. “Knowing\nHow,” The Journal of Philosophy, 97:\n411–444.\n\nSteward, Helen, 2012. A Metaphysics for Freedom, Oxford:\nOxford UP.\n\n–––, 2020. “Agency as a Two-Way Power: A\nDefence,” The Monist, 103: 342–355.\n\nStrawson, P.F., 1959. Individuals: An Essay in Descriptive\nMetaphysics, London: Methuen.\n\nTaylor, Richard, 1960. “I Can,” The Philosophical\nReview, 69: 78–89.\n\nvan Inwagen, Peter, 1983. An Essay on Free Will, Oxford:\nOxford University Press.\n\nVetter, Barbara, 2013. “‘Can’ Without Possible\nWorlds: Semantics for Anti-Humeans,” Philosophers’\nImprint, 13(16).\n[Vetter 2013 available online]\n \n–––, 2015. Potentiality: From Dispositions\nto Modality, Oxford: Oxford University Press.\n\nVihvelin, Kadri, 2004. “Free Will Demystified: A\nDispositionalist Account,” Philosophical Topics, 32:\n427–450.\n\n–––, 2013. Causes, Laws, and Free Will: Why\nDeterminism Doesn’t Matter, Oxford: Oxford University\nPress.\n\nWhittle, Ann, 2010. “Dispositional Abilities,”\nPhilosophers’ Imprint, 10(12).\n[Whittle 2010 available online]\n\nWiller, Malte, forthcoming. “Two Puzzles About Ability\nCan,” Linguistics and Philosophy, first online\n30 March 2020. doi:10.1007/s10988-020-09296-6\n\nWolf, Susan, 1990. Freedom within Reason, Oxford: Oxford\nUniversity Press.",
+    "subHeadings": [
+      {
+        "href": "#Tax",
+        "subTitle": "1. A taxonomy",
+        "subItems": [
+          {
+            "href": "#DisOthPow",
+            "subTitle": "1.1 Dispositions and other powers",
+            "subItems": []
+          },
+          {
+            "href": "#DemAbi",
+            "subTitle": "1.2 Demarcating abilities",
+            "subItems": []
+          },
+          {
+            "href": "#QueKnoHow",
+            "subTitle": "1.3 ‘Know how’ and the intelligent powers",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#TwoFunDis",
+        "subTitle": "2. Two fundamental distinctions",
+        "subItems": [
+          {
+            "href": "#GenSpeAbi",
+            "subTitle": "2.1 General and specific abilities",
+            "subItems": []
+          },
+          {
+            "href": "#AbiAbiAsc",
+            "subTitle": "2.2 Abilities and ability-ascriptions",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#HypTheAbi",
+        "subTitle": "3. Hypothetical theories of ability",
+        "subItems": [
+          {
+            "href": "#ConAna",
+            "subTitle": "3.1 The conditional analysis",
+            "subItems": []
+          },
+          {
+            "href": "#ProForConAna",
+            "subTitle": "3.2 Problems for the conditional analysis",
+            "subItems": []
+          },
+          {
+            "href": "#ConAnaSomVar",
+            "subTitle": "3.3 The conditional analysis: some variations",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#ModTheAbi",
+        "subTitle": "4. Modal theories of ability",
+        "subItems": [
+          {
+            "href": "#ModAna",
+            "subTitle": "4.1 The modal analysis",
+            "subItems": []
+          },
+          {
+            "href": "#ModAnaLogCon",
+            "subTitle": "4.2 The modal analysis: logical considerations",
+            "subItems": []
+          },
+          {
+            "href": "#ModAnaLinCon",
+            "subTitle": "4.3 The modal analysis: linguistic considerations",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#NewAppAbi",
+        "subTitle": "5. New approaches to ability",
+        "subItems": [
+          {
+            "href": "#NewDis",
+            "subTitle": "5.1 The ‘new dispositionalism’",
+            "subItems": []
+          },
+          {
+            "href": "#AbiPow",
+            "subTitle": "5.2 Abilities as distinctive powers",
+            "subItems": []
+          },
+          {
+            "href": "#OthApp",
+            "subTitle": "5.3 Other approaches",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#AbiFreWilDeb",
+        "subTitle": "6. Abilities and the free will debates",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [
+      {
+        "title": "On the Semantics of Ability Attributions",
+        "description": "Hackl, Martin, 1998, manuscript,\n “”.",
+        "url": "http://web.mit.edu/hackl/www/papers/files/AbilityAttributions.pdf"
+      }
+    ],
+    "relatedEntries": [
+      {
+        "relId": "action/",
+        "relEntry": "action",
+        "relEntryUrl": "https://plato.stanford.edu/entries/action/"
+      },
+      {
+        "relId": "compatibilism/",
+        "relEntry": "compatibilism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/compatibilism/"
+      },
+      {
+        "relId": "conditionals/",
+        "relEntry": "conditionals",
+        "relEntryUrl": "https://plato.stanford.edu/entries/conditionals/"
+      },
+      {
+        "relId": "dispositions/",
+        "relEntry": "dispositions",
+        "relEntryUrl": "https://plato.stanford.edu/entries/dispositions/"
+      },
+      {
+        "relId": "incompatibilism-arguments/",
+        "relEntry": "incompatibilism: arguments for",
+        "relEntryUrl": "https://plato.stanford.edu/entries/incompatibilism-arguments/"
+      },
+      {
+        "relId": "knowledge-how/",
+        "relEntry": "knowledge how",
+        "relEntryUrl": "https://plato.stanford.edu/entries/knowledge-how/"
+      },
+      {
+        "relId": "logic-modal/",
+        "relEntry": "logic: modal",
+        "relEntryUrl": "https://plato.stanford.edu/entries/logic-modal/"
+      }
+    ]
+  },
+  {
+    "id": "abner-burgos",
+    "url": "https://plato.stanford.edu/entries/abner-burgos/",
+    "authors": [
+      "Shalom Sadik"
+    ],
+    "title": "Abner of Burgos",
+    "firstPublished": "2012-07-08T23:00:00.000Z",
+    "lastPublished": "2020-08-27T23:00:00.000Z",
+    "preamble": "Abner of Burgos (Alfonso de Valladolid; c. 1260–1347) was\nperhaps the most important philosopher in the stream of Jewish Spanish\nrabbi-apostates in the 14th and 15th centuries.\nIn the first part of his life, Abner was an Aristotelian Jewish\nphilosopher. However, at the age of 60 (if Pablo de Santa Maria is a\nreliable source) after years of hesitation, he became a Neo-Platonic\nChristian, making him one of the very few philosophers (much less\nphilosopher-rabbis) to change his philosophical opinion (and religion)\nduring the Middle Ages. The majorities of his works are primarily\npolemical, and try to convince his former fellow Jews to become\nChristian, as he did. However, in his polemical writings, Abner built\nan original philosophical critique of both traditional Judaism and the\nAristotelian (and Maimonidean) philosophical interpretation of\nJudaism. Another part of his philosophical aim was a very radical\ninterpretation of Christianity aimed at convincing his Jewish audience\nthat his Christianity was superior to traditional and philosophical\nJudaism. Abner was one of the first philosophical and scientific\ncritics of Aristotle, as well as one of the more radical Neo-Platonic\nthinkers of Christianity during the Middle Ages. His works had a very\nimportant impact on Jewish philosophy at the latter end of the Middle\nAges, and some of his opinions influenced, through Rabbi Hasdai\nCrescas, general Western philosophy.",
+    "bibliography": "Bibliography\n\nWorks by Abner\n\n\n\nMeyasher aqob, G. Gluskina (ed. and trans.), Moscow:\nNauka, 1983.\n\nOfrenda de zelos y Libro de la ley, W. Mettmann (ed.),\nOpladen: Westdeutscher Verlag, 1990.\n [Available online].\n \nMostrador de justicia, W. Mettmann (ed.), Opladen:\nWestdeutscher Verlag, 1996–1997.\n\nResponses to the Blasphemer (Teshuvot la-Meharef), edited and\ntranslated in J.L. Hecht, The Polemical Exchange between Isaac\nPollegar and Abner of Burgos/Alfonso of Valladolid according to Parma\nMS 2440, Ph.D. Thesis, Skirbal Department of Hebrew and Judaic\nStudies, New York University, 1993.\n\nAbner Epistles: Rosenthal, J., 1961, “The Third Letter of\nAbner of Burgos”, Studies in Bibliography and Booklore V,\n(Hebrew), pp. 42–51.\n\n–––, 1964, “From Sefer Alfonso”,\nAbraham Neuman Jubilee Volume, in Hebrew, M. Ben-Horim editor, Leiden:\nBrill, pp. 588–621.\n\n–––, 1964, “The second Epistle of Abner of\nBurgos”, Abraham Weiss Jubilee Volume, S. Balkin (ed.), New\nYork: Abraham Weiss Jubilee Committee, pp. 483–510.\n\n–––, 1967, “Excerpts from the Hebrew\nWriting of the Apostate Abner of Burgos”, Mehqarim u-Meqorot, in\nHebrew, 2 volumes, Jerusalem: Ben Zvi, pp. 324–367.\n\n\nSecondary sources\n\n\n\nBaer, Y., 1929, “Abner aus Burgos,”\nKorrespondenzblatt des Vereins zur Gründung und Erhaltung\neiner Akademie für die Wissenschaft des Judentums, 9:\n20–37.\n\n–––, 1961–1966, A History of Jews in\nChristian Spain, Philadelphia: Jewish Publication Society.\n\nChazan, R., 1984, “Maestre Alfonso of Valladolid and the New\nMissionizing,” Revue des études juives, 143:\n83–94.\n\n–––, 2000, “Undermining the Jewish Sense\nof Future: Alfonso of Valladolid and the New Christian\nMissionizing,” in Christian, Muslims and Jews in Medieval\nand Early Modern Spain, M. D. Meyerson and D. Edward (eds.),\nIndiana: Indiana University Press, pp. 179–194.\n\nGershenzon, S., 1974, “Midrash and Exegesis in the\nChristological Argument of Abner of Burgos,” Hebrew\nAbstracts, 15: 96–100.\n\n–––, 1984, “A Study of Teshuvot La-Meharef\nby Abner of Burgos,” Ph.D. Thesis, Hebrew Literature in Jewish\nHistory, The Jewish Theological Seminary of America.\n\n–––, 1984, “A Tale of Two Midrashim: The\nLegacy of Abner of Burgos,” in Approaches to Judaism in\nMedieval Times, D. Blumenthal (ed.), Atlanta: Scholars Press, pp.\n133–145.\n\n–––, 1986, “The View of Maimonides as a\nDeterminist in ‘Sefer Minhat Qenaot’ by Abner of\nBurgos,” Proceedings of the Ninth World Congress of Jewish\nStudies (Division C: Jewish Thought and Literature), Jerusalem:\nThe Magnes Press, pp. 93–100.\n\nHames, H. J., 2009, “It Takes Three to Tango: Ramon Llull,\nSolomon ibn Adret and Alfonso of Valladolid Debate the Trinity”,\nMedieval Encounters, 15: 199–224. \n\nHecht, J. L., 1993, “The Polemical Exchange between Isaac\nPollegar and Abner of Burgos/Alfonso of Valladolid according to Parma\nMS 2440”, Ph.D. Thesis, Skirbal Department of Hebrew and Judaic\nStudies, New York University.\n\nLazar, M., 2003, “Alfonso de valladolid’s Mostrador de\nJusticia: A Polemic Debate Between Abner’s Old and New Self”,\nEdad Media: revista de historia 6, 121–127.\n\nRavitzky, A., 1982, “Crescas’ Theory of Human Will:\nDevelopment and Sources,” Tarbiz, 51: 445–470\n(Heb.).\n\nRosenthal, J., 1961, “The Third Letter of Abner of\nBurgos”, Studies in Bibliography and Booklore V,\n(Hebrew), pp. 42–51.\n\n–––, 1964, “From Sefer Alfonso”,\nAbraham Neuman Jubilee Volume, in Hebrew, M. Ben-Horim (ed.),\nLeiden: Brill, pp. 588–621.\n\n–––, 1964, “The second Epistle of Abner of\nBurgos”, Abraham Weiss Jubilee Volume, S. Balkin (ed.),\nNew York: Abraham Weiss Jubilee Committee, pp. 483–510.\n\n–––, 1967, “Excerpts from the Hebrew\nWriting of the Apostate Abner of Burgos”, Mehqarim\nu-Meqorot, in Hebrew, 2 volumes, Jerusalem: Ben Zvi, pp.\n324–367.\n\nSadik, S., 2008, “Crescas’ critique of Aristotle and the\nlost book by Abner of Burgos”, Tarbiz, 77:\n133–155 (Heb.).\n\n–––, 2011, “The definition of Place in the\nThought of Abner of Burgos and Rabbi Hasdai,” Jerusalem\nStudies in Jewish Tough, 22: 233–246.\n\n–––, 2016, “Abner of Burgos and\nPhilosophical Knowledge Transfer: a Summary of his Transfer of\nPhilosophical Knowledge from Judaism to Christianity and from\nChristianity to Judaism”, Medieval Encounters, 22:\n95–112.\n\n–––, 2020, Ideology of Apostasy – the\nIdeology of Jewish Spaniards who Converted to Christianity,\n(Hebrew), Jerusalem: Magness.\n\nSainz de la Maza Vicioso, C. N., 1989, Alphonso de Valladolid:\nEdicion y estudio del manuscrito LAT 6423 de la biblioteca apostolica\nvaticana, Madrid: Madrid Univesity Press.\n\n–––, 1992, “El converso y judio: Alfonso\nde Valladolid y su libro del zelo de dio,” in Las tres\nculturas en la corrona de Castilla y los sefardies: Junto cultura de\nCastilla y Leon, Salamanca: Junta de Castilla y León, pp.\n75–81.\n\n–––, 1992, “El toldot Yeshu Castellano en\nel Maestre Alfonso de Valladolid,” Actas II congreso\ninternacional de la asociacion hispanica de literature medieval\n(Volume 2), Alcala: Ministério de Educação\nNacional, pp. 797–814.\n\n–––, 1992, “Vi en vision de sueno:\nConversion religiosa y autobiografia onirica en Abner de Burgos, alias\nAlfonso de Valladolid,” Compas de letras: monografias de\nliteraturas espanola, 1: 186–208.\n\nSchwartz, Y., 2011, “Images of Revelation and Spaces of\nKnowledge, The Jew, the Christian and the Christian-Jew: Jewish\nApostates as Cultural Mediators in Medieval Spain”, in A. Fidora\nand M. Tischler (eds.), Christian North – Moslem South,\nMünster: Aschendorff Verlag, pp. 267–287.\n\nShamir, Y, 1972, Rabbi Moses Ha-Kohen of Tordesillas and His\nBook ‘Ezer Ha-emunah – a Chapter in the History of the\nJudeo-Christian Controversy, Coconut Grove, FL: Field Research\nProjects.\n\nSirat. C., 1975, “Deux philosophes juifs répondent\nà Abner de Burgos à propos du libre-arbitre humain et de\nl’omniscience divine”, in Mélanges \nAndré Neher,  E. Amado Lévy-Valensi (ed.), Paris.\n87–94.\n\nSzpiech, R. W., 2006, “From Testimonia to\nTestimony: Thirteenth-Century Anti-Jewish Polemic and the\nMostrador de Justicia of Abner of Burgos/Alfonso de\nValladolid,” Ph.D. Thesis, Judaic Studies, Yale University.\n\n\n–––, 2010, “In Search of Ibn\nSīnā’s ‘Oriental Philosophy’ in Medieval\nCastile,” Arabic Sciences and Philosophy, 20:\n185–206.\n\n–––, 2010, “The Original is Unfaithful to\nthe Translation: Conversion and Authenticity in Abner of Burgos and\nAnselm Turmeda,” eHumanista, 14: 146–177.\n\n–––, 2010, “Polemical Strategy and the\nRhetoric of Authority in Abner of Burgos / Alfonso of\nValladolid,” in Late Medieval Jewish Identities,\nMaría Esperanza Alfonso and Carmen Caballero-Navas (eds). New\nYork: Palgrave Macmillan, pp. 55–76.\n\n–––, 2013, Conversion and Narrative –\nReading and Religious Authority in Medieval Polemic,\nPhiladelphia: University of Pennsylvania Press, 143-173.\n\n–––, 2014, “Petrus Alfonsi…Erred\nGreatly: Alfonso of Valladolid’s Imitation and Critique of Petrus\nAlfonsi’s Dialogus”, in Petrus Alfonsi and his Dialogus:\nBackground, Context, Reception, Carmen Cardelle de Hartmann and\nPhilipp Roelli (eds.), Florence: Sismel Edizioni del Galluzzo,\n321–348.\n\n–––, 2018, “L’hérésie absente: karaïsme et\nkaraïtes dans les Oeuvres polémiques d’Alfonso de Valladolid\n(m. v. 1347),” Archives de sciences sociales des religions,\n182 (2018): 191–207.\n\n–––, 2020, “On the Road to 1391? Abner of\nBurgos/Alfonso of Valladolid on Forced Conversion,” in Coming to\nTerms with Forced Conversion: Coercion and Faith in Pre-Modern Iberia\nand Beyond, Mercedes García-Arenal and Yonatan Glazer-Etan\n(eds.), pp. 175–204, Leiden: Brill.",
+    "subHeadings": [
+      {
+        "href": "#Life",
+        "subTitle": "1. Life",
+        "subItems": []
+      },
+      {
+        "href": "#Work",
+        "subTitle": "2. Works",
+        "subItems": []
+      },
+      {
+        "href": "#TrinInca",
+        "subTitle": "3. The Trinity and Incarnation",
+        "subItems": []
+      },
+      {
+        "href": "#Dete",
+        "subTitle": "4. Determinism",
+        "subItems": []
+      },
+      {
+        "href": "#CritArisScie",
+        "subTitle": "5. Critics of the Aristotelian science",
+        "subItems": []
+      },
+      {
+        "href": "#InflAbne",
+        "subTitle": "6. The influence of Abner",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [],
+    "relatedEntries": [
+      {
+        "relId": "aristotle-natphil/",
+        "relEntry": "Aristotle, Special Topics: natural philosophy",
+        "relEntryUrl": "https://plato.stanford.edu/entries/aristotle-natphil/"
+      },
+      {
+        "relId": "crescas/",
+        "relEntry": "Crescas, Hasdai",
+        "relEntryUrl": "https://plato.stanford.edu/entries/crescas/"
+      },
+      {
+        "relId": "determinism-causal/",
+        "relEntry": "determinism: causal",
+        "relEntryUrl": "https://plato.stanford.edu/entries/determinism-causal/"
+      },
+      {
+        "relId": "free-will-foreknowledge/",
+        "relEntry": "free will: divine foreknowledge and",
+        "relEntryUrl": "https://plato.stanford.edu/entries/free-will-foreknowledge/"
+      },
+      {
+        "relId": "god-ultimates/",
+        "relEntry": "God: and other ultimates",
+        "relEntryUrl": "https://plato.stanford.edu/entries/god-ultimates/"
+      },
+      {
+        "relId": "maimonides/",
+        "relEntry": "Maimonides",
+        "relEntryUrl": "https://plato.stanford.edu/entries/maimonides/"
+      },
+      {
+        "relId": "meister-eckhart/",
+        "relEntry": "Meister Eckhart",
+        "relEntryUrl": "https://plato.stanford.edu/entries/meister-eckhart/"
+      },
+      {
+        "relId": "neoplatonism/",
+        "relEntry": "Neoplatonism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/neoplatonism/"
+      },
+      {
+        "relId": "ockham/",
+        "relEntry": "Ockham [Occam], William",
+        "relEntryUrl": "https://plato.stanford.edu/entries/ockham/"
+      },
+      {
+        "relId": "spinoza/",
+        "relEntry": "Spinoza, Baruch",
+        "relEntryUrl": "https://plato.stanford.edu/entries/spinoza/"
+      },
+      {
+        "relId": "trinity/",
+        "relEntry": "trinity",
+        "relEntryUrl": "https://plato.stanford.edu/entries/trinity/"
+      }
+    ]
+  },
+  {
+    "id": "abrabanel",
+    "url": "https://plato.stanford.edu/entries/abrabanel/",
+    "authors": [
+      "Aaron Hughes"
+    ],
+    "title": "Judah Abrabanel",
+    "firstPublished": "2005-12-02T00:00:00.000Z",
+    "lastPublished": "2022-06-07T23:00:00.000Z",
+    "preamble": "Judah Abrabanel (ca. 1465–after 1521), also known as Leone Ebreo, is\nan important transitional figure in the history of Jewish\nphilosophy. Common to any transitional figure, however, is the problem\nof contextualization. In the case of Judah Abrabanel, do we regard him\nas the last of the medieval Jewish philosophers or the first of the\nearly modern ones?  His work, for example, is certainly in\nconversation with a number of themes found in Renaissance Platonism\nand Humanism. Yet at the same time he freely draws upon the cosmology\nand metaphysics of his Jewish and Islamic predecessors.\n\n\n\nAbrabanel’s magnum opus, the Dialoghi d’amore\n(“Dialogues of Love”) belongs to the genre of the\ntrattato d’amore (“treatise on love”) that was\nintimately connected to both the Renaissance and the development of\nthe Italian vernacular. Although Abrabanel’s dialogue provides one of\nthe genre’s most important philosophical discussions in this, it\nnonetheless is confined to its literary and stylized form. The work\nitself consists of three dialogues, with the third one providing the\nlongest and most sustained philosophical discussion. Some contend that\nAbrabanel originally composed an introduction to the work and a fourth\ndialogue, neither of which\n survives.[1] \n In essence, the Dialoghi offers the transcript of a\nconversation between two individuals, Philo and Sophia, two courtiers,\nwho discourse on the nature of love as both a sensual and cosmic\nprinciple.  Philo, the male character, is portrayed as an\naccomplished philosopher, and Sophia, the female character, as a\nstudent of philosophy.  Despite this, Sophia is not just a\nconvenient textual strategy, but becomes a character in her own right,\nsomeone who significantly contributes to the philosophical unfolding\nof the work. Moreover, many of the dialogic exchanges that take place\nbetween Philo and Sophia are very playful, with Philo, on one level,\neither answering Sophia’s questions about love or responding to\nher criticisms; yet, on another level, he physically desires Sophia\nand wishes to consummate this desire. Philo’s desire for Sophia,\nthus, reflects the same desire of God (the superior) for the world\n(the inferior). As a Renaissance artist, then, Abrabanel cleverly and\nartfully weaves the philosophical principles of love, beauty, and\ndesire into the very literary structure of his Dialoghi.",
+    "bibliography": "Bibliography\n\nEditions\n\n\n\nAbrabanel, Judah (Ebreo, Leone). Dialoghi d’amore. Ed.\nSantino Caramella. Bari: Laterza e Figli, 1929.\n\n–––. Dialoghi d’amore. Tradutione e\nintroduzione ebraica di Menachem Dorman. Jerusalem: Bialik Institute,\n1983.\n\n–––. Dialogos de amor. Leao Hebreu.\nTraduzido por Giacinto Manuppella. Testo italiano e versao portuguesa,\nnote e documenti. 2 vols. Lisboa: Instituto Nacional de Investigacao\nCientifica, 1983.\n\n–––. Dialogues d’amour. Trans. into\nFrench attributed to Pontus de Tyard. Edited by T. Anthony Perry,\nChapel Hill: University of North Carolina Press, 1974.\n\n–––. The Philosophy of\nLove. Trans. into English by F.  Friedeberg-Seeley and Jean\nH. Barnes and introduction by Cecil Roth.  London: Soncino Press,\n1937.\n\n–––. Dialogues of Love. Trans into\nEnglish by Damian Bacich and Rossella Pescatori.  Toronto: University\nof Toronto Press, 2009.\n\n\nSecondary Literature\n\n\n\nAltmann, Alexander. 1983. “‘Ars Rhetorica’ as\nReflected in Some Jewish Figures of the Italian Renaissance.”\nJewish Thought in the Sixteenth Century, Bernard Dov\nCooperman (ed.), 1–22. Cambridge, MA: Harvard University Press.\n\nAriani, Marco. 1984. Imago fabulosa: mito e allegoria nei “Dialoghi\nD’Amore” di Leone Ebreo. Roma: Bulzoni.\n\nBonfil, Robert. 1984. “The Historian’s Perception of the\nJews in the Italian Renaissance: Towards a Reappraisal.”\nRevue des etudes juives, 143: 59–82.\n\nBurckhardt, Jacob. 1971. La Cultura del Renacimiento en Italia.\nTrad. de J. Ardal. Barcelona: Obras Maestras.\n\nDamiens, Suzanne. 1971. Amour et intellect chez Leon\nI´Hébreu. Toulouse: Edouard Privat Editeur.\n\nDavidson, Herbert. 1983. “Medieval Jewish\nPhilosophy in the Sixteenth Century.” Jewish Thought in the\nSixteenth Century. Bernard Dov Cooperman (ed.),\n106–144. Cambridge, MA: Harvard University Press.\n\nDorman, Menahem, and Zeev Levy, eds. 1985. The Philosophy of Leone\nEbreo: Four Lectures (Hebrew).  Haifa: HaKibbutz Hameuchad.\n\nFeldman, Seymour. 2003. Philosophy in a Time of Crisis: Don Isaac\nAbravanel, Defender of the Faith. London:\nRoutledge Curzon.\n\nGarvin, Barbara. 2001. “The Language of Leone Ebreo’s Dialoghi\nd’amorem.” Italia, 13–15: 181–210.\n\nGershenzon, Shoshanna. 2000. “Myth and Scripture: the\nDialoghi d’Amore of Leone Ebreo,” in A Crown\nfor a King, 125–145.\n\n–––. 1992. “The Circle Metaphor on Leone Ebreo’s\n‘Dialoghi d’amore’”.\nDaat, 29: 5–17.\n\nGuidi, Angela. 2011. Amour et Sagesse.  Les Dialogues d’amour\nde Juda Abravanel dans la tradition salomonienne. Leiden:\nBrill.\n\nHarari, David. 1988. “The Traces of the Missing Fourth Dialogue on\nLove by Judah Abravanel Known as Leone Ebreo”\n(Hebrew). Italia, 7(1–2): 93–155.\n\nHughes, Aaron W. 2004. “Transforming the Maimonidean\nImagination: Aesthetics in the Renaissance Thought of Judah\nAbravanel.”\nHarvard Theological Review, 97(4): 461–484.\n\n–––. 2006. “Epigone, Innovator, or\nApologist: The Case of Judah Abravanel,” in The Dynamics of\nJewish Epigonism, Shlomo Berger and Irene Zweip (eds.),\n109–125.  Studia Rosenthalia.\n\n–––. 2008. The Art of Dialogue in Medieval Jewish\nPhilosophy, Bloomington: Indiana University Press.\n\n–––. 2012. “Translation and the Invention of\nRenaissance Jewish Culture: The Case of Judah Messer Leon and Judah\nAbravanel,” in The Hebrew Bible in Fifteenth-Century Spain:\nExegesis, Literature, Philosophy, and the Arts, Jonathan Decter\nand Arturo Prats (eds.), Leiden: Brill, 245–266.\n\nIdel, Moshe. 1983. “The Magic and Neoplatonic Interpretation of\nthe Kabbalah,” in Jewish Thought in the Sixteenth\nCentury, Bernard Dov Cooperman (ed.), 186–242. Cambridge, MA: Harvard\nUniversity Press.\n\n–––. 1978. “The Sources of the Circle Images in\nthe Dialoghi D’amore,” Iyyun, 28:\n156–166.\n\nIvry, Alfred. 1983. “Remnants of Jewish Averroism in the\nRenaissance,” in Jewish Thought in the Sixteenth\nCentury, Bernard Dov Cooperman (ed.), Cambridge, MA: Harvard\nUniversity Press, 243–265.\n\nKodera, Sergius. 1995. Filone und Sofia in Leone Ebreos Dialoghi\nd’amore: Platonische Liebesphilosophie der Renaissance und\nJudentum. Frankfurt: Peter Lang.\n\nKristeller, Paul O. 1985. “Jewish Contributions to Italian\nRenaissance Culture.” Italia, 4(1): 7–20.\n\n–––. 1966. Renaissance Philosophy and the Medieval\nTraditions.  Pennsylvania: The Archabbey Press.\n\nLawee, Eric. 2001. Isaac Abarbanel’s Stance Toward Tradition:\nDefense, Dissent, and Dialogue.  Albany: State\nUniversity of New York Press.\n\nLesley, Arthur M. 1992. “The Place of the Dialoghi d’Amore\nin Contemporaneous Jewish Thought,” in Essential Papers on Jewish\nCulture in Renaissance and Baroque Italy, David B. Ruderman, (ed.), 170–188. New York: New York University Press.\n\n–––. 1993. “Proverbs, Figures and Riddles: The\nDialogues of Love as a Hebrew Humanist Composition.”\nMidrashic Imagination: Jewish Exegesis, Thought, and History. Ed\nMichael Fishbane, 204–225. Albany: State University of New York\nPress.\n\nLevy, Ze´ev. 1993. “On the Concept of Beauty in the\nPhilosophy of Yehudah Abrabanel,” in New Horizons in\nSephardic Studies, Yehida K. Stillman and George K. Zuker (eds.),\n37–44. Albany: State University of New York Press.\n\nMalard, Constance. 2020. Un Banquet aristotélicien: la\nrenaissance de l’aristotélisme dans les Dialogues d’Amour\nde Léon l’Hébreu (env. 1465–1525).  Thèse de\ndoctorat: Philosophie, textes et savoirs: Université Paris sciences\net lettres.\n\n\nMatula, Jozef. 2020. Leone Ebreo: Renesanc̆ný dialóg medzi láskou a múdrost’ou.  Olomouc: Pr̆irozený svĕt.\n\nMilburn, Alan Ray. 1937. “Leone Ebreo and the\nRenaissance.” Isaac Abrabanel: Six Lectures, J.B. Trend\nand H. Loewe (eds.), 131–156. Cambridge, MA: Cambridge\nUniversity Press.\n\nPerry, Anthony T. 1980. Erotic Spirituality: The Integrative\nTradition From Leone Ebreo to John Donne. Alabama: University of\nAlabama Press. \n\nPflaum, Heinz. 1926. Die Idee der Liebe: Leone Ebreo: Zwei\nAbhandlungen zur Geschichte der Philosophie in der\nRenaissance. Tubingen: J.C.B.Mohr.\n\nPines, Shlomo. 1983. “Medieval Doctrines in Renaissance\nGarb: Some Jewish and Arabic Sources of Leone Ebreo’s\nDoctrine.” Jewish Thought in the Sixteenth Century,\nBernard Dov Cooperman (ed.), 365–398. Cambridge, MA: Harvard\nUniversity Press.\n\nPrice, A.W. 1997. Love and Friendship in Plato and Aristotle.\nOxford: Clarendon Press.\n\nRuderman, David B. 1983. The World of a Renaissance Jew: The Life\nand Thought of Abraham ben Mordechai Farissol.\nCincinnati: Hebrew Union College Press.\n\n–––. 1988. “Italian Renaissance and Jewish\nThought.” Renaissance Humanism: Foundations, Forms, and\nLegacy, Albert Rabil, Jr. (ed.), vol.1,\n382–433. Philadelphia: University of Pennsylvania Press.\n\nSonne, Isaiah. 1934. Intorno alla vita di Leone Ebreo. Firenze:\nCivilta Moderna.\n\nTirosh-Rothschild, Hava. 1990. “Jewish Culture in\nRenaissance Italy: A Methodological Survey,” Italia,\n9(1–2): 63–96.\n\n–––. 1997. “Jewish Philosophy on the Eve\nof Modernity,” in History of Jewish Philosophy, Daniel\nH. Frank and Oliver Leaman (eds.), 499–573. London and New York:\nRoutledge.\n\nZimmels, Bernhard. 1886. Leo Hebraeus: Ein Judischer Philosoph der\nRenaissance: Sein Leben, Seine Werke und Seine Lehren. Breslau:\nWilhem Koebner.\n\n–––. 1892. Leone Hebreo, Neue Studien. Wien:\nn.p. \n\nZonta, Giusseppe. 1967. Trattati d’amore del Cinquecento. Bari\n: G. Laterza.",
+    "subHeadings": [
+      {
+        "href": "#LifWor",
+        "subTitle": "1. Life and Works",
+        "subItems": [
+          {
+            "href": "#Lif",
+            "subTitle": "1.1 Life",
+            "subItems": []
+          },
+          {
+            "href": "#Wor",
+            "subTitle": "1.2 Works",
+            "subItems": []
+          },
+          {
+            "href": "#DiaDamQueLan",
+            "subTitle": "1.3 Dialoghi d’amore and the Question of Language",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#FaiReaMyt",
+        "subTitle": "2. Faith, Reason, and Myth",
+        "subItems": []
+      },
+      {
+        "href": "#BeaLov",
+        "subTitle": "3. Beauty and Love",
+        "subItems": []
+      },
+      {
+        "href": "#Bea",
+        "subTitle": "4. Philosophy of Beauty",
+        "subItems": [
+          {
+            "href": "#EleRheAesIma",
+            "subTitle": "4.1  The Elevation of Rhetoric, Aesthetics, and the Imagination",
+            "subItems": []
+          },
+          {
+            "href": "#CosMet",
+            "subTitle": "4.2 Cosmology and Metaphysics",
+            "subItems": []
+          },
+          {
+            "href": "#PsyPro",
+            "subTitle": "4.3 Psychology and Prophecy",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#Lov",
+        "subTitle": "5. Philosophy of Love",
+        "subItems": [
+          {
+            "href": "#JudRecLovPhiPri",
+            "subTitle": "5.1 Judah’s Recasting of Love as a Philosophical Principle",
+            "subItems": []
+          },
+          {
+            "href": "#CirLovIlCirDegAma",
+            "subTitle": "5.2 “The Circle of Love” (il circulo degli amari)",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#EndHumLif",
+        "subTitle": "6. The End of Human Life",
+        "subItems": []
+      },
+      {
+        "href": "#RecHisInf",
+        "subTitle": "7. Reception History and Influence",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [],
+    "relatedEntries": [
+      {
+        "relId": "ficino/",
+        "relEntry": "Ficino, Marsilio",
+        "relEntryUrl": "https://plato.stanford.edu/entries/ficino/"
+      },
+      {
+        "relId": "maimonides/",
+        "relEntry": "Maimonides",
+        "relEntryUrl": "https://plato.stanford.edu/entries/maimonides/"
+      }
+    ]
+  },
+  {
+    "id": "abstract-objects",
+    "url": "https://plato.stanford.edu/entries/abstract-objects/",
+    "authors": [
+      "José L. Falguera",
+      "Concha Martínez-Vidal",
+      "Gideon Rosen"
+    ],
+    "title": "Abstract Objects",
+    "firstPublished": "2001-07-18T23:00:00.000Z",
+    "lastPublished": "2021-08-08T23:00:00.000Z",
+    "preamble": "One doesn’t go far in the study of what there is without\nencountering the view that every entity falls into one of two\ncategories: concrete or abstract. The distinction is\nsupposed to be of fundamental significance for metaphysics (especially\nfor ontology), epistemology, and the philosophy of the formal sciences\n(especially for the philosophy of mathematics); it is also relevant\nfor analysis in the philosophy of language, the philosophy of mind,\nand the philosophy of the empirical sciences. This entry surveys (a)\nattempts to say how the distinction should be drawn and (b) some of\nmain theories of, and about, abstract objects.",
+    "bibliography": "Bibliography\n\n\n\nArmstrong, David, 1978, Universals and Scientific Realism\n(Volume I: Nominalism and Realism; Volume II: A Theory of\nUniversals), New York: Cambridge University Press.\n\n–––, 1989, Universals: An Opinionated\nIntroduction, Boulder: Westview Press.\n\nAzzouni, Jody, 1997a, “Applied Mathematics, Existential\nCommitment and the Quine-Putnam Indispensability Thesis,”\nPhilosophia Mathematica, 3(5): 193–209.\n\n–––, 1997b, “Thick Epistemic Access:\nDistinguishing the Mathematical from the Empirical,” The\nJournal of Philosophy, 94(9):\n472–484. doi:10.2307/2564619\n\n–––, 2004, Deflating Existential\nConsequence: A Case for Nominalism, New York: Oxford University\nPress. doi:10.1093/0195159888.001.0001\n\n–––, 2010, Talking About Nothing: Numbers,\nHallucinations and Fictions, Oxford: Oxford University\nPress.\n\nBaker, Alan, 2005, “Are There Genuine Mathematical\nExplanations of Physical Phenomena?” Mind, 114(454):\n223–238.\n\n–––, 2009, “Mathematical Explanation in\nScience,” British Journal for the Philosophy of\nScience, 60(3): 611–633.\n\n–––, 2017, “Mathematics and Explanatory\nGenerality,” Philosophia Mathematica, 25(2):\n194–209. doi:10.1093/philmat/nkw021\n\nBalaguer, Mark, 1995, “A Platonist Epistemology,”\nSynthese, 103(3): 303–325.\n\n–––, 1996, “A Fictionalist Account of the\nIndispensable Applications of Mathematics,” Philosophical\nStudies: An International Journal for Philosophy in the Analytic\nTradition, 83(3): 291–314.\n\n–––, 1998, Platonism and Anti-Platonism in\nMathematics p. 240, New York: Oxford University Press.\n\n–––, 2020, “Moral Folkism and the\nDeflation of (Lots of) Normative and Metaethics,” in José\nFalguera & Martínez-Vidal (eds.) 2020,\npp. 297–318.\n\nBaron, Samuel, 2016, “Explaining Mathematical\nExplanation,” The Philosophical Quarterly, 66(264):\n458–480. doi:10.1093/pq/pqv123\n\n–––, 2020, “Purely Physical Explananda:\nBistability in Perception,” in Falguera &\nMartínez-Vidal (eds.) 2020, pp. 17–34.\n\nBealer, George, 1993, “Universals,” The Journal of\nPhilosophy, 90(1): 5–32. doi:10.2307/2940824\n\nBenacerraf, Paul, 1965, “What Numbers Could Not Be,”\nPhilosophical Review, 74(1): 47–73.\n\n–––, 1973, “Mathematical Truth,”\nJournal of Philosophy, 70(19): 661–679.\n\nBerto, Francesco, and Plebani, Matteo, 2015, Ontology and\nMetaontology: A Contemporary Guide, London; New York: Bloomsbury\nAcademic.\n\nBolzano, Bernard, 1837, Wissenschaftslehre, Sulzbach:\nJ. E.  v. Seidel.\n\nBrentano, Franz, 1874, Psychologie Vom Empirischen\nStandpunkt, Leipzig: Duncker & Humblot.\n\nBueno, Otávio, 2008a, “Nominalism and Mathematical\nIntuition,” Protosociology, 25: 89–107.\n\n–––, 2008b, “Truth and Proof,”\nManuscrito, 31(1): 419–440.\n\n–––, 2020, “Contingent Abstract\nObjects,” in Falguera & Martínez-Vidal (eds.) 2020,\npp. 91–109.\n\nBurgess, John P., 2005, Fixing Frege, Princeton:\nPrinceton University Press.\n\nBurgess, John P., and Rosen, Gideon, 1997, A Subject with No\nObject: Strategies for Nominalistic Interpretation of\nMathematics, Oxford: Oxford University Press.\n\nCarnap, Rudolf, 1950 [1956], “Empiricism, Semantics, and\nOntology,” Revue Internationale de Philosophie, 4(11):\n20–40; reprinted with revisions in Rudolf Carnap, Meaning and\nNecessity, expanded edition, Chicago: Chicago University Press, 1956,\npp. 205–221.\n\nChalmers, David, 1996, The Conscious Mind, Oxford: Oxford\nUniversity Press.\n\nColyvan, Mark, 2001, The Indispensability of Mathematics,\nOxford: Oxford University Press.\n\n–––, 2010, “There Is No Easy Road to\nNominalism,” Mind, 119(474):\n285–306. doi:10.1093/mind/fzq014\n\nColyvan, Mark, and Zalta, Edward N., 1999, “Mathematics:\nTruth and Fiction?” Philosophia Mathematica, 7(3):\n336–349. doi:10.1093/philmat/7.3.336\n\nCook, Roy, 2003, “Iteration One More Time,” Notre\nDame Journal of Formal Logic, 44(2): 63–92.\n\nCowling, Sam, 2017, Abstract Entities, London:\nRoutledge.\n\nCrane, Tim, and Mellor, D. H., 1990, “There Is No Question\nof Physicalism,” Mind, 99(394): 185–206.\n\nDedekind, Richard, 1888 [1963], Was Sind Und Was Sollen Die\nZahlen, Braunschweig: Vieweg und Sohn; English translation,\n“The Nature and Meaning of Numbers”, in R. Dedekind,\nEssays on the Theory of Numbers, Wooster Woodruff Beman (trans.),\nNew York: Dover, 1963, pp. 29–115.\n\nDonato-Rodríguez, Xavier, and Falguera, José L.,\n2020, “The Nature of Scientific Models: Abstract Artifacts That\nDetermine Fictional Systems,” in Falguera &\nMartínez-Vidal (eds.) 2020, pp. 151–171.\n\nDummett, Michael, 1973, Frege: Philosophy of Language,\nLondon: Duckworth.\n\nEnoch, David, 2011, Taking Morality Seriously: A Defense of\nRobust Realism, Oxford: Oxford University\nPress. doi:10.1093/acprof:oso/9780199579969.001.0001\n\n–––, 2016, “Indispensability Arguments in\nMetaethics: Even Better Than in Mathematics?” in Uri D.\nLeibowitz & Neil Sinclair (eds.), Explanation in Ethics and\nMathematics, Oxford: Oxford University Press.\n\nFalguera, José L., and Martínez-Vidal, Concha\n(eds.), 2020, Abstract Objects: For and Against (Synthese\nLibrary: Volume 422), Cham, Switzerland: Springer.\n\nField, Hartry, 1980, Science Without Numbers, Princeton:\nPrinceton University Press.\n\n–––, 1989, Realism, Mathematics and\nModality, Oxford: Basil Blackwell.\n\nFine, Kit, 1994, “Essence and Modality,”\nPhilosophical Perspectives, 8:\n1–16. doi:10.2307/2214160\n\n–––, 2002, The Limits of Abstraction,\nOxford; New York: Clarendon Press.\n\n–––, 2005, “Our Knowledge of Mathematical\nObjects,” in Oxford Studies in Epistemology: Volume 1,\npp. 89–110, Oxford: Oxford University Press.\n\nFrege, Gottlob, 1884, Grundlagen Der Arithmetik, Breslau:\nW. Koebner.\n\n–––, 1918, “Der Gedanke: Eine Logische\nUntersuchung,” Beiträge Zur Philosophie Des Deutschen\nIdealismus, I: 58–77.\n\nGoodman, Nelson, and Quine, W. V. O., 1947, “Steps Toward a\nConstructive Nominalism,” The Journal of Symbolic\nLogic, 12(4): 105–122.\n\nGödel, Kurt, 1964, “What Is Cantor’s Continuum\nProblem?” in P. Benacerraf & H. Putnam (eds.),\nPhilosophy of Mathematics: Selected Readings, 2nd edition,\npp. 254–270, Cambridge: Cambridge University Press.\n\nHale, Bob, 1987, Abstract Objects, Oxford:\nBlackwell.\n\nHale, Bob, and Wright, Crispin, 2001, The Reason’s\nProper Study: Essays Towards a Neo-Fregean Philosophy of\nMathematics, Oxford: Oxford University Press.\n\n–––, 2009, “The Metaontology of\nAbstraction,” in D. Chalmers, D. Manley, & R. Wasserman\n(eds.), Metametaphysics, pp. 178–212, New York: Oxford\nUniversity Press.\n\nHellman, Geoffrey, 1989, Mathematics Without Numbers: Towards\na Modal-Structural Interpretation, Oxford: Clarendon Press.\n\nHirsch, Eli, 2002, “Quantifier Variance and Realism,”\nPhilosophical Issues, 12(1): 51–73.\ndoi:10.1111/j.1758-2237.2002.tb00061.x\n\n–––, 2011, Quantifier Variance and Realism:\nEssays in Metaontology, New York: Oxford University Press.\n\nInwagen, Peter van, 1977, “Creatures of Fiction,”\nAmerican Philosophical Quarterly, 14(4): 299–308.\n\n–––, 1983, “Fiction and\nMetaphysics,” Philosophy and Literature, 7(1):\n67–77.  doi:10.1353/phl.1983.0059\n\nJackson, Frank, 1982, “Epiphenomenal Qualia,” The\nPhilosophical Quarterly, 32(127): 127–136.\ndoi:10.2307/2960077 \n\nKalderon, Mark Eli, 2005, Fictionalism in Metaphysics,\nOxford: Oxford University Press.\n\nKatz, Jerrold, 1980, Language and Other Abstract Objects,\nLanham, MD: Rowman & Littlefield.\n\nKnowles, Robert, and Saatsi, Juha, 2019, “Mathematics and\nExplanatory Generality: Nothing but Cognitive Salience,”\nErkenntnis.  doi:10.1007/s10670-019-00146-x\n\nKripke, Saul, 1973 [2013], Reference and Existence: The John\nLocke Lectures, Oxford: Oxford University Press, 2013. [These\nlectures were given in 1973 but remained unpublished until 2013.]\n\nLeibowitz, Uri D., and Sinclair, Neil (eds.), 2016,\nExplanation in Ethics and Mathematics: Debunking and\nDispensability, Oxford: Oxford University\nPress. doi:10.1093/acprof:oso/9780198778592.001.0001\n\nLeng, Mary, 2010, Mathematics and Reality, Oxford: Oxford\nUniversity Press.\n\n–––, 2020, “Is There a Fact of the Matter\nAbout the Existence of Abstract Objects?” in Falguera &\nMartínez-Vidal (eds.) 2020, pp. 111–130.\n\nLewis, David, 1986a, On the Plurality of Worlds, Oxford:\nBlackwell.\n\n–––, 1986b, “Events”, in\nD. Lewis, Philosophical Papers (Volume II), Oxford:\nOxford University Press, pp. 241–269. \n\n–––, 2007, “Events,” in\nPhilosophical Papers: Volume Ii, pp. 241–269, Oxford:\nOxford University Press.\n\nLinnebo, 2012, “Metaontological Minimalism,”\nPhilosophy Compass, 7(2):\n139–151. doi:10.1111/j.1747-9991.2011.00471.x\n\n–––, 2018, Thin Objects: An Abstractionist\nAccount, Oxford: Oxford University\nPress. doi:10.1093/oso/9780199641314.001.0001\n\nLinsky, Bernard, and Zalta, Edward N., 1995, “Naturalized\nPlatonism Versus Platonized Naturalism,” The Journal of\nPhilosophy, 92(10): 525–555. doi:10.2307/2940786\n\nLocke, John, 1689, An Essay Concerning Human\nUnderstanding, Oxford: Clarendon Press.\n\nMaddy, Penelope, 1990, Realism in Mathematics, New York;\nLondon: Clarendon Press.\n\n–––, 1995, “Naturalism and\nOntology,” Philosophia Mathematica, 3(3):\n248–270. doi:10.1093/philmat/3.3.248\n\n–––, 1997, Naturalism in Mathematics,\nOxford: Oxford University Press.\n\n–––, 2011, Defending the Axioms: On the\nPhilosophical Foundations of Set Theory, Oxford: Oxford University\nPress.\n\nMalament, David, 1982, “Review of Field (1980),”\nThe Journal of Philosophy, 79: 523–34.\n\nMally, Ernst, 1912, Gegenstandstheoretische Grundlagen Der\nLogik Und Logistik, Leipzig: Barth.\n\nMartínez-Vidal, Concha, and Rivas-de-Castro, Navia, 2020,\n“Description, Explanation and Ontological Commitment,” in\nFalguera & Martínez-Vidal (eds.) 2020,\npp. 35–57.\n\nMeinong, Alexius, 1904, “Über\nGegenstandstheorie,” in A. Meinong (ed.), Untersuchungen Zur\nGegenstandstheorie Und Psychologie [Investigations in Theory of\nObjects and Psychology], pp. 1–51, Leipzig: Barth.\n\n–––, 1915, Über Möglichkeit Und\nWahrscheinlichkeit. Beiträge Zur Gegenstandstheorie Und\nErkenntnistheorie [on Possibility and Probability. Contributions to\nObject Theory and Epistemology], Leipzig: Barth.\n\nMelia, Joseph, 2000, “Weaseling Away the Indispensability\nArgument,” Mind, 109(435): 455–479.\n\n–––, 2002, “Response to Colyvan,”\nMind, 111(441): 75–79.\n\nMoltmann, Friederike, 2013, Abstract Objects and the Semantics\nof Natural Language, Oxford: Oxford University Press.\n\n–––, 2020, “Abstract Objects and the\nCore-Periphery Distinction in the Ontological and the Conceptual\nDomain of Natural Language,” in Falguera &\nMartínez-Vidal (eds.) 2020, pp. 255–276.\n\nNodelman, Uri, and Zalta, Edward N., 2014, “Foundations for\nMathematical Structuralism,” Mind, 123(489):\n39–78. doi:10.1093/mind/fzu003\n\nParsons, Charles, 1990, “The Structuralist View of\nMathematical Objects,” Synthese, 84(3):\n303–346.\n\nParsons, Terence, 1980, Nonexistent Objects, New Haven:\nYale University Press.\n\nPopper, Karl, 1968, “Epistemology Without a Knowing\nSubject,” in Logic, Methodology, and Philosophy of Science\nIii, pp. 333–373, Amsterdam: North Holland.\n\nPutnam, Hilary, 1967, “Mathematics Without\nFoundations,” The Journal of Philosophy, 64(1):\n5–22.\n\n–––, 1971, Philosophy of Logic, London:\nHarper; Row.\n\n–––, 1987, The Many Faces of Realism,\nLa Salle: Open Court.\n\n–––, 1990, Realism with a Human Face,\nCambridge, MA: Harvard University Press.\n\nQuine, W. V. O., 1948, “On What There Is,” The\nReview of Metaphysics, 2(5): 21–38.\n\n–––, 1960, Word and Object, Cambridge,\nMA: The MIT Press.\n\n–––, 1969, Ontological Relativity and Other\nEssays, New York: Columbia University Press.\n\n–––, 1976, The Ways of Paradox and Other\nEssays, Cambridge, MA: Harvard University Press.\n\nRayo, Agustín, 2013, The Construction of Logical\nSpace, Oxford: Oxford University Press.\n\nResnik, Michael D., 1982, “Mathematics as a Science of\nPatterns: Epistemology,” Noûs, 16(1):\n95–105.  doi:10.2307/2215419\n\n–––, 1997, Mathematics as a Science of\nPatterns p. 290, Oxford: Oxford University\nPress. doi:10.1093/0198250142.001.0001\n\nRosen, Gideon, 1994, “Objectivity and Modern Idealism: What\nIs the Question?” in M. Michael & J. O’Leary-Hawthorne\n(eds.), Philosophy in Mind, pp. 277–319, Dordrecht:\nSpringer.\n\n–––, 2011, “The Reality of Mathematical\nObjects,” in J. Polkinghorne (ed.), Meaning in\nMathematics, pp. 113–131, Oxford: Oxford University\nPress.\n\nRosen, Gideon, and Yablo, Stephen, 2020, “Solving the Caesar\nProblem – with Metaphysics,” in A. Miller (ed.),\nLogic, Language and Mathematics: Themes from the Philosophy of\nCrispin Wright, pp. 116–131, Oxford: Oxford University\nPress.\n\nSaatsi, Juha, 2011, “The Enhanced Indispensability Argument:\nRepresentational Versus Explanatory Role of Mathematics in\nScience,” The British Journal for the Philosophy of\nScience, 62(1): 143–154.\n\nSainsbury, Mark, 2009, Fiction and Fictionalism, London:\nRoutledge.\n\nShapiro, Stewart, 1997, Philosophy of Mathematics: Structure\nand Ontology, New York: Oxford University\nPress. doi:10.1093/0195139305.001.0001\n\nSider, Theodore, 2007, “Parthood,” The\nPhilosophical Review, 116(1):\n51–91. doi:10.1215/00318108-2006-022\n\n–––, 2009, “Ontological Realism,” in\nD.  Chalmers, D. Manley, & R. Wasserman (eds.),\nMetametaphysics, pp. 384–423, Oxford: Oxford University\nPress.\n\n–––, 2013, “Against Parthood,” in\nKaren Bennett and Dean W. Zimmerman (eds.), Oxford Studies in\nMetaphysics, vol. 8, Oxford: Oxford University Press,\npp. 237–93.\n\nSteiner, Mark, 1975, Mathematical Knowledge, Ithaca:\nCornell University Press.\n\nSwoyer, Chris, 2007, “Abstract Entities,” in T. Sider,\nJ.  Hawthorne, & D. W. Zimmerman (eds.), Contemporary Debates\nin Metaphysics, pp. 11–31, Malden, MA:\nWiley-Blackwell.\n\nSzabó, Zoltan Gendler, 2003, “Nominalism,” in\nOxford Handbook of Metaphysics, pp. 11–45, Oxford:\nOxford University Press.\n\nTennant, Neil, 1997, “On the Necessary Existence of\nNumbers,” Noûs, 31(3):\n307–336. doi:10.1111/0029-4624.00048\n\nThomasson, Amie L., 1999, Fiction and Metaphysics,\nCambridge: Cambridge University Press.\n\n–––, 2015, Ontology Made Easy, Oxford:\nOxford University Press.\n\nWetzel, Linda, 2009, Types and Tokens: On Abstract\nObjects, Cambridge, MA: The MIT Press.\n\nWright, Crispin, 1983, Frege’s Conception of Numbers as\nObjects, Aberdeen: Aberdeen University Press.\n\nYablo, Stephen, 1998, “Does Ontology Rest on a\nMistake?” Proceedings of the Aristotelian Society\n(Supplementary Volume), 72(1):\n229–262. doi:10.1111/1467-8349.00044\n\n–––, 2001, “Go Figure: A Path Through\nFictionalism,” Midwest Studies in Philosophy, 25:\n72–102. doi:10.1111/1475-4975.00040\n\n–––, 2002, “Abstract Objects: A Case\nStudy,” Philosophical Issues, 12(1):\n220–240.\n\n–––, 2009, Thoughts: Papers on Mind,\nMeaning, and Modality, New York: Oxford University Press.\n\n–––, 2010, “The Myth of the Seven,”\nin Things: Papers on Objects, Events, and Properties, pp.\n233–245, Oxford: Oxford University Press.\n\n–––, 2014, Aboutness, Princeton:\nPrinceton University Press.\n\nZalta, Edward N., 1983, Abstract Objects: An Introduction to\nAxiomatic Metaphysics, Dordrecht: D. Reidel.\n\n–––, 1988, Intensional Logic and Metaphysics\nof Intentionality, Cambridge, MA: The MIT Press.\n\n–––, 1993, “Twenty-Five Basic Theorems in\nSituation and World Theory,” Journal of Philosophical\nLogic, 22: 385–428.\n\n–––, 2006, “Essence and Modality,”\nMind, 115(459): 659–693.\n\n–––, 2020, “Typed Object Theory,” in\nFalguera & Martínez-Vidal (eds.) 2020,\npp. 59–88.",
+    "subHeadings": [
+      {
+        "href": "#Intr",
+        "subTitle": "1. Introduction",
+        "subItems": [
+          {
+            "href": "#AbouExprObje",
+            "subTitle": "1.1 About the Expression ‘Object’",
+            "subItems": []
+          },
+          {
+            "href": "#AbouAbstDist",
+            "subTitle": "1.2 About the Abstract/Concrete Distinction",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#HistRema",
+        "subTitle": "2. Historical Remarks",
+        "subItems": [
+          {
+            "href": "#ProvDist",
+            "subTitle": "2.1 The Provenance of the Distinction",
+            "subItems": []
+          },
+          {
+            "href": "#InitOverContDeba",
+            "subTitle": "2.2 An Initial Overview of the Contemporary Debate",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#WhatAbstObje",
+        "subTitle": "3. What is an Abstract Object?",
+        "subItems": [
+          {
+            "href": "#WayExamWayPrim",
+            "subTitle": "3.1 The Way of Example and the Way of Primitivism",
+            "subItems": []
+          },
+          {
+            "href": "#WayConf",
+            "subTitle": "3.2 The Way of Conflation",
+            "subItems": []
+          },
+          {
+            "href": "#WayAbst",
+            "subTitle": "3.3 The Way of Abstraction",
+            "subItems": []
+          },
+          {
+            "href": "#WayAbstPrin",
+            "subTitle": "3.4 The Way of Abstraction Principles",
+            "subItems": []
+          },
+          {
+            "href": "#WaysNega",
+            "subTitle": "3.5 The Ways of Negation",
+            "subItems": []
+          },
+          {
+            "href": "#WayEnco",
+            "subTitle": "3.6 The Way of Encoding",
+            "subItems": []
+          },
+          {
+            "href": "#WaysWeakExis",
+            "subTitle": "3.7 The Ways of Weakening Existence",
+            "subItems": []
+          },
+          {
+            "href": "#Elim",
+            "subTitle": "3.8 Eliminativism",
+            "subItems": []
+          }
+        ]
+      },
+      {
+        "href": "#FurtRead",
+        "subTitle": "4. Further Reading",
+        "subItems": []
+      }
+    ],
+    "otherInternetResources": [
+      {
+        "title": "The Ultra-Thin Conception of Objecthood",
+        "description": "Rayo, A., 2020, “,” \nunpublished manuscript.",
+        "url": "http://web.mit.edu/arayo/www/ut.pdf"
+      }
+    ],
+    "relatedEntries": [
+      {
+        "relId": "analytic-synthetic/",
+        "relEntry": "analytic/synthetic distinction",
+        "relEntryUrl": "https://plato.stanford.edu/entries/analytic-synthetic/"
+      },
+      {
+        "relId": "carnap/",
+        "relEntry": "Carnap, Rudolf",
+        "relEntryUrl": "https://plato.stanford.edu/entries/carnap/"
+      },
+      {
+        "relId": "fictionalism/",
+        "relEntry": "fictionalism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/fictionalism/"
+      },
+      {
+        "relId": "frege/",
+        "relEntry": "Frege, Gottlob",
+        "relEntryUrl": "https://plato.stanford.edu/entries/frege/"
+      },
+      {
+        "relId": "mathphil-indis/",
+        "relEntry": "mathematics, philosophy of: indispensability arguments in the",
+        "relEntryUrl": "https://plato.stanford.edu/entries/mathphil-indis/"
+      },
+      {
+        "relId": "nominalism-mathematics/",
+        "relEntry": "mathematics, philosophy of: nominalism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/nominalism-mathematics/"
+      },
+      {
+        "relId": "platonism-mathematics/",
+        "relEntry": "mathematics, philosophy of: Platonism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/platonism-mathematics/"
+      },
+      {
+        "relId": "nominalism-metaphysics/",
+        "relEntry": "nominalism: in metaphysics",
+        "relEntryUrl": "https://plato.stanford.edu/entries/nominalism-metaphysics/"
+      },
+      {
+        "relId": "object/",
+        "relEntry": "object",
+        "relEntryUrl": "https://plato.stanford.edu/entries/object/"
+      },
+      {
+        "relId": "physicalism/",
+        "relEntry": "physicalism",
+        "relEntryUrl": "https://plato.stanford.edu/entries/physicalism/"
+      },
+      {
+        "relId": "platonism/",
+        "relEntry": "Platonism: in metaphysics",
+        "relEntryUrl": "https://plato.stanford.edu/entries/platonism/"
+      },
+      {
+        "relId": "states-of-affairs/",
+        "relEntry": "states of affairs",
+        "relEntryUrl": "https://plato.stanford.edu/entries/states-of-affairs/"
+      },
+      {
+        "relId": "types-tokens/",
+        "relEntry": "types and tokens",
+        "relEntryUrl": "https://plato.stanford.edu/entries/types-tokens/"
+      }
+    ]
+  }
+]

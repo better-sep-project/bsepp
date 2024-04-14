@@ -1,8 +1,14 @@
 const mongoose = require('mongoose');
 
+const mongoURI = 'mongodb+srv://scraper:lkzy4gYBy9KqsPvh@cluster0.augtsuf.mongodb.net/'; 
 
-mongoose.connect('mongodb+srv://scraper:lkzy4gYBy9KqsPvh@cluster0.augtsuf.mongodb.net/')
-  .then(() => console.log('Connected to MongoDB with scraper.'))
-  .catch(err => console.error('Could not connect to MongoDB:', err));
+const connectDB = async () => {
+  try {
+    await mongoose.connect(mongoURI);
+    console.log('MongoDB Connected...');
+  } catch (err) {
+    console.error(err.message);
+  }
+};
 
-module.exports = mongoose;
+module.exports = connectDB;

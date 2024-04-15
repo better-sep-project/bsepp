@@ -2,7 +2,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const { JSDOM } = require("jsdom");
-const { convert } = require('html-to-text');
+const { convert } = require("html-to-text");
 const ProgressBar = require("progress");
 const baseURL = "https://plato.stanford.edu";
 
@@ -39,7 +39,9 @@ function processTOC($, element) {
     const subItems = li.find("> ul").length > 0 ? processTOC($, li) : [];
     toc.push({ href, title, subItems });
   });
-  return toc.filter(item => !["#Bib", "#Aca", "#Oth", "#Rel"].includes(item.href));
+  return toc.filter(
+    (item) => !["#Bib", "#Aca", "#Oth", "#Rel"].includes(item.href)
+  );
 }
 
 /**
@@ -53,8 +55,8 @@ function extractAuthors($, listItem) {
   const authorRegex = /\(([^)]+)\)/;
   const authorMatch = text.match(authorRegex);
   if (authorMatch) {
-    const names = authorMatch[1].split(/,| and /).map(name => name.trim());
-    if (names.some(name => name.includes("see"))) {
+    const names = authorMatch[1].split(/,| and /).map((name) => name.trim());
+    if (names.some((name) => name.includes("see"))) {
       return null;
     }
     return names;
@@ -76,10 +78,16 @@ async function getEntryDetails(entryUrl) {
   const doc = dom.window.document;
 
   const title = doc.querySelector("meta[property='citation_title']")?.content;
-  const authorMetaTags = Array.from(doc.querySelectorAll("meta[property='citation_author']"));
-  const authors = authorMetaTags.map(meta => ({ name: meta.content }));
-  let firstPublished = doc.querySelector("meta[name='DCTERMS.issued']")?.content;
-  let lastPublished = doc.querySelector("meta[name='DCTERMS.modified']")?.content;
+  const authorMetaTags = Array.from(
+    doc.querySelectorAll("meta[property='citation_author']")
+  );
+  const authors = authorMetaTags.map((meta) => ({ name: meta.content }));
+  let firstPublished = doc.querySelector(
+    "meta[name='DCTERMS.issued']"
+  )?.content;
+  let lastPublished = doc.querySelector(
+    "meta[name='DCTERMS.modified']"
+  )?.content;
   const preambleHTML = doc.querySelector("#preamble")?.innerHTML;
   const bibliographyHTML = doc.querySelector("#bibliography")?.innerHTML;
 
@@ -87,29 +95,50 @@ async function getEntryDetails(entryUrl) {
     title,
     authors,
     dates: {
-      firstPublished: firstPublished ? new Date(firstPublished).toISOString() : null,
+      firstPublished: firstPublished
+        ? new Date(firstPublished).toISOString()
+        : null,
       lastUpdated: lastPublished ? new Date(lastPublished).toISOString() : null,
     },
-    preamble: convert(preambleHTML, { ignoreHref: true, preserveNewlines: false, wordwrap: false }),
-    bibliography: convert(bibliographyHTML, { ignoreHref: true, preserveNewlines: true, wordwrap: false }),
+    preamble: convert(preambleHTML, {
+      ignoreHref: true,
+      preserveNewlines: false,
+      wordwrap: false,
+    }),
+    bibliography: convert(bibliographyHTML, {
+      ignoreHref: true,
+      preserveNewlines: true,
+      wordwrap: false,
+    }),
     toc: processTOC($),
-    otherInternetResources: $("#other-internet-resources ul li a").map((i, el) => {
-      const title = $(el).text();
-      const url = $(el).attr("href");
-      const description = $(el).parent().clone().children().remove().end().text().trim();
-      return { title, description, url };
-    }).get(),
-    relatedEntries: $("#related-entries p a").map((i, el) => {
-      const href = $(el).attr("href");
-      const text = $(el).text().trim();
-      const identifier = href.replace("../", "");
-      const relEntryUrl = `${baseURL}/entries/${identifier}`;
-      return { identifier, relEntry: text, relEntryUrl };
-    }).get(),
+    otherInternetResources: $("#other-internet-resources ul li a")
+      .map((i, el) => {
+        const title = $(el).text();
+        const url = $(el).attr("href");
+        const description = $(el)
+          .parent()
+          .clone()
+          .children()
+          .remove()
+          .end()
+          .text()
+          .trim();
+        return { title, description, url };
+      })
+      .get(),
+    relatedEntries: $("#related-entries p a")
+      .map((i, el) => {
+        const href = $(el).attr("href");
+        const text = $(el).text().trim();
+        const identifier = href.replace("../", "");
+        const relEntryUrl = `${baseURL}/entries/${identifier}`;
+        return { identifier, relEntry: text, relEntryUrl };
+      })
+      .get(),
     meta: {
       scrapedAt: new Date().toISOString(),
-      sourceUrl: entryUrl
-    }
+      sourceUrl: entryUrl,
+    },
   };
 }
 
@@ -121,14 +150,18 @@ async function scrapePlatoStanford() {
   const contentsHtml = await fetchHTML(baseURL + "/contents.html");
   const $ = cheerio.load(contentsHtml);
   const links = $('li a[href*="entries/"]').toArray();
-  const originalEntries = links.filter(link => extractAuthors($, $(link).parent()));
+  const originalEntries = links.filter((link) =>
+    extractAuthors($, $(link).parent())
+  );
 
   console.log(`Total entries to scrape: ${originalEntries.length}`);
-  const bar = new ProgressBar(':bar :current/:total (:percent) :etas', { total: originalEntries.length });
+  const bar = new ProgressBar(":bar :current/:total (:percent) :etas", {
+    total: originalEntries.length,
+  });
 
   const entries = [];
   for (const link of originalEntries) {
-    const href = $(link).attr('href');
+    const href = $(link).attr("href");
     const identifier = href.split("/")[1];
     const url = `${baseURL}/${href}`;
     const details = await getEntryDetails(url);

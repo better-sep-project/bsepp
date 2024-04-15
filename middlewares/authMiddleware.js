@@ -6,9 +6,10 @@ const UserModel = require("../model/UserModel");
 
 // requireAuth middleware
 const requireAuth = (req, res, next) => {
-  if (req.session && req.session.userId) {
+  if (req.session && req.session.user) {
     next();
   } else {
+    console.log("Unauthorized; user:", req.session.user);
     res.status(401).send({
         success: false,
         message: "Unauthorized",
@@ -18,7 +19,7 @@ const requireAuth = (req, res, next) => {
 
 // requireNotAuth middleware
 const requireNoAuth = (req, res, next) => {
-  if (!req.session || !req.session.userId) {
+  if (!req.session || !req.session.user) {
     next();
   } else {
     res.redirect("/");

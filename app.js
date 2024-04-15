@@ -1,12 +1,15 @@
 require("dotenv").config();
+
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser");
+
 const { mongooseClient } = require("./config/db");
 const session = require("express-session");
-const redis = require("redis");
-const RedisStore = require("connect-redis")(session);
-const redisClient = require("./config/redis");
-const bodyParser = require("body-parser");
+const RedisStore = require("connect-redis").default;
+const { redisStore } = require("./config/redisCfg");
+
+const v1Route = require("./routes/v1Route");
 
 const PORT = process.env.PORT || 3000;
 
@@ -14,17 +17,18 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-app.use(session({
-  store: new RedisStore({ client: redisClient.client }),
-  secret: process.env.SESSION_SECRET,
-  resave: false,
-  saveUninitialized: true,
-  cookie: { secure: false },
-}));
+app.use(
+  session({
+    store: redisStore,
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false },
+  })
+);
+app.use(bodyParser.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
+app.use("/api", v1Route);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

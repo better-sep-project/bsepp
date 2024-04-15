@@ -11,6 +11,9 @@ exports.requireAuth = (req, res, next) => {
     res.status(401).send({
       success: false,
       message: "Unauthorized",
+      reason: {
+        type: "NO_AUTH",
+      },
     });
   }
 };
@@ -41,6 +44,10 @@ exports.requireRole = (role) => {
     res.status(401).send({
       success: false,
       message: "Unauthorized",
+      reason: {
+        type: "NO_ROLE",
+        role: role,
+      },
     });
   };
 };
@@ -66,6 +73,10 @@ exports.requirePermission = (...permissions) => {
     res.status(401).send({
       success: false,
       message: "Unauthorized",
+      reason: {
+        type: "NO_PERMISSION",
+        permissions: permissions,
+      },
     });
   };
 };

@@ -21,12 +21,7 @@ exports.login = async (req, res) => {
     });
   }
 
-  req.session.user = {
-    id: user._id,
-    email: user.email,
-    firstName: user.firstName,
-    lastName: user.lastName,
-  };
+  req.session.user = user._id;
 
   res.status(200).send({
     success: true,

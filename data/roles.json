@@ -1,10 +1,8 @@
 {
-  "roles": {
-    "user": {
-      "permissions": []
-    },
-    "elevated": {
-      "permissions": ["readContent"]
-    }
+  "user": {
+    "permissions": []
+  },
+  "elevated": {
+    "permissions": ["readContent"]
   }
 }

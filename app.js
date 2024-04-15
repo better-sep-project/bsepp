@@ -4,9 +4,8 @@ const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 
-const { mongooseClient } = require("./config/db");
+const mongooseClient = require("./config/db");
 const session = require("express-session");
-const RedisStore = require("connect-redis").default;
 const { redisStore } = require("./config/redisCfg");
 
 const v1Route = require("./routes/v1Route");

@@ -4,10 +4,3 @@ exports.ping = (req, res) => {
     message: "pong",
   });
 };
-
-exports.isAuth = (req, res) => {
-  res.status(200).send({
-    success: true,
-    message: "Authenticated",
-  });
-};

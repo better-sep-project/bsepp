@@ -1,0 +1,8 @@
+{
+  "user": {
+    "permissions": []
+  },
+  "elevated": {
+    "permissions": ["readContent"]
+  }
+}

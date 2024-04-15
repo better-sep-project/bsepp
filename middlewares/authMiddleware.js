@@ -62,10 +62,10 @@ exports.requirePermission = (...permissions) => {
         return next();
       }
     }
-    
+
     res.status(401).send({
       success: false,
       message: "Unauthorized",
-    })
+    });
   };
 };

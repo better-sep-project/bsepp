@@ -11,9 +11,7 @@ exports.hasPermission = async (userId, ...permissions) => {
   if (!user) {
     return false;
   }
-  console.log(
-    `Checking if user ${user} has permissions ${permissions}...`
-  );
+  console.log(`Checking if user ${user} has permissions ${permissions}...`);
   const role = user.role;
   const userPermissions = roles[role].permissions;
   for (const permission of permissions) {

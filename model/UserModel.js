@@ -47,7 +47,7 @@ const UserSchema = new Schema({
     type: String,
     enum: ["user", "elevated"],
     default: "user",
-  }
+  },
 });
 
 // hash password before saving

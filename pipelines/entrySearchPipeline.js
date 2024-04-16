@@ -17,7 +17,7 @@ const SEARCH_CFG = {
  * @param {P} searchQuery Term to search
  * @param {EntryFilters} filters Filters to apply to the search
  */
-const buildQuery = (searchQuery, filters) => {
+exports.entryPipelineQuery = (searchQuery, filters) => {
   let query = [
     {
       $search: {
@@ -123,16 +123,4 @@ const buildQuery = (searchQuery, filters) => {
       meta: "$$SEARCH_META",
     },
   });
-};
-
-/**
- * Aggregation pipeline for searching entries
- * @param {*} searchQuery  The search query
- * @param {*} filters  The filters to apply to the search
- * @returns {Promise<Array>} - Array of entries
- */
-exports.entryPipeline = async (searchQuery, filters) => {
-  let query = buildQuery(searchQuery, filters);
-
-  return EntryModel.aggregate(query).exec();
 };

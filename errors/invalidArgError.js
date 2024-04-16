@@ -1,8 +1,8 @@
-class InvalidArgumentError extends Error {
+class InvalidArgError extends Error {
   constructor(message) {
     super(message);
     this.name = "InvalidArgumentError";
   }
 }
 
-module.exports = InvalidArgumentError;
+module.exports = InvalidArgError;

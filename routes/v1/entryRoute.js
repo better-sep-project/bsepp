@@ -3,6 +3,6 @@ const router = express.Router();
 
 const { getEntries } = require("../../controllers/entryController");
 
-router.get("/", getEntries);
+router.get("/all", getEntries);
 
 module.exports = router;

@@ -7,4 +7,4 @@ const RelatedEntrySchema = new Schema({
   relEntryUrl: { type: String, required: false },
 });
 
-module.exports = mongoose.model("RelatedEntryModel", RelatedEntrySchema);
+module.exports = mongoose.model("RelatedEntry", RelatedEntrySchema);

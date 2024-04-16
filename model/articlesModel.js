@@ -14,9 +14,9 @@ const ArticleSchema = new Schema({
   articleContent: [
     {
       type: Schema.Types.ObjectId,
-      ref: "ArticleContentModel",
+      ref: "ArticleContent",
     },
   ],
 });
 
-module.exports = mongoose.model("ArticleModel", ArticleSchema);
+module.exports = mongoose.model("Article", ArticleSchema);

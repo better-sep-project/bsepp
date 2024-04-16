@@ -8,6 +8,6 @@ const OtherInternetResourcesSchema = new Schema({
 });
 
 module.exports = mongoose.model(
-  "OtherInternetResourcesModel",
+  "OtherInternetResources",
   OtherInternetResourcesSchema
 );

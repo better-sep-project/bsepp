@@ -6,4 +6,4 @@ const TocSubItemSchema = new Schema({
   href: { type: String, required: false },
 });
 
-module.exports = mongoose.model("TocSubItemModel", TocSubItemSchema);
+module.exports = mongoose.model("TocSubItem", TocSubItemSchema);

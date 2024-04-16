@@ -13,4 +13,4 @@ const ArticleChildrenSchema = new Schema({
   },
 });
 
-module.exports = mongoose.model("ArticleChildrenModel", ArticleChildrenSchema);
+module.exports = mongoose.model("ArticleChildren", ArticleChildrenSchema);

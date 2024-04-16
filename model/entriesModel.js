@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const EntrySchema = new Schema({
+  identifier: { type: String, required: true },
   title: { type: String, required: true },
   authors: [{ type: Object, required: true }],
   dates: {
@@ -10,15 +11,18 @@ const EntrySchema = new Schema({
   },
   preamble: { type: String, required: false },
   bibliography: { type: String, required: false },
-  toc: [TocItemSchema],
+  toc: [{type: Schema.Types.ObjectId, ref: "TocItem"}],
   otherInternetResources: [
-    { type: Schema.Types.ObjectId, ref: "OtherInternetResourcesModel" },
+    { type: Schema.Types.ObjectId, ref: "OtherInternetResources" },
   ],
-  relatedEntries: [{ type: Schema.Types.ObjectId, ref: "RelatedEntryModel" }],
+  relatedEntries: [{ type: Schema.Types.ObjectId, ref: "RelatedEntry" }],
   meta: {
     scrapedAt: { type: Date, required: true },
     sourceUrl: { type: String, required: true },
   },
 });
 
-module.exports = mongoose.model("EntryModel", EntrySchema);
+// indexes
+EntrySchema.index({ title: "text", preamble: "text" });
+
+module.exports = mongoose.model("Entry", EntrySchema);

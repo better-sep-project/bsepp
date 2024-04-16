@@ -21,6 +21,8 @@ README is currently for developer documentation, rewrite later (maybe).
     v1Route.js           // Route linking all in v1/
   services/              // Services to access model (i.e. roles)
     ...
+  pipelines/             // Database aggregation pipelines
+    ...
   app.js                 // Main server entry point
   scrapeEntries.js       // Initial scraper script
   scrapeRss.js           // Lambda function scraper
@@ -59,6 +61,43 @@ MongoDB database to store:
 3. Article contents
 
 Follow schema in `./models`.
+
+#### Indexes
+Search Index should be applied on `title` in the entry model:
+```json
+{
+  "mappings": {
+    "dynamic": true,
+    "fields": {
+      "preamble": {
+        "ignoreAbove": 500,
+        "norms": "omit",
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      }
+    }
+  }
+}
+```
+
+Autocomplete Index should be applied on `title` in the entry model:
+```json
+{
+  "mappings": {
+    "dynamic": false,
+    "fields": {
+      "title": {
+        "maxGrams": 7,
+        "minGrams": 2,
+        "tokenization": "edgeGram",
+        "type": "autocomplete"
+      }
+    }
+  }
+}
+```
 
 ### AWS
 Lambda function `scrapeRss.js` will be stored in an AWS Lambda function. It will be called in intervals (AWS CloudWatch) at a specific time every day (or another suitable interval).

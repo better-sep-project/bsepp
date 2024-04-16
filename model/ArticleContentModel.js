@@ -16,7 +16,7 @@ const ArticleContentSchema = new Schema({
     required: true,
     enum: ["text", "blockQuote"],
   },
-  children: [{ type: Schema.Types.ObjectId, ref: "ArticleChildrenModel" }],
+  children: [{ type: Schema.Types.ObjectId, ref: "ArticleChildren" }],
 });
 
-module.exports = mongoose.model("ArticleContentModel", ArticleContentSchema);
+module.exports = mongoose.model("ArticleContent", ArticleContentSchema);

@@ -22,7 +22,4 @@ const EntrySchema = new Schema({
   },
 });
 
-// indexes
-EntrySchema.index({ title: "text", preamble: "text" });
-
 module.exports = mongoose.model("Entry", EntrySchema);

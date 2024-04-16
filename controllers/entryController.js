@@ -1,1 +1,3 @@
-const { EntryModel } = require('../models/EntriesModel');
+exports.getEntries = async (req, res) => {
+    
+}

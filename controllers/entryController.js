@@ -1,14 +1,18 @@
 const { getEntries } = require("../services/entryService");
 const InvalidArgError = require("../errors/InvalidArgError");
+const EntryFilters = require("../utils/entryFilters");
 
 exports.getEntries = async (req, res) => {
   const { title, authors, afterDate, beforeDate } = req.query;
+  let filters;
+
   try {
-    const filters = new EntryFilters(title, authors, afterDate, beforeDate);
+    filters = new EntryFilters(title, authors, afterDate, beforeDate);
   } catch (error) {
     if (error instanceof InvalidArgError) {
       return res.status(400).json({ success: false, error: error.message });
     } else {
+      console.error(error);
       return res
         .status(500)
         .json({ success: false, error: "Internal server error" });
@@ -22,6 +26,7 @@ exports.getEntries = async (req, res) => {
     const entries = await getEntries(filters, page, limit);
     return res.status(200).json({ success: true, data: entries });
   } catch (error) {
+    console.error(error);
     return res
       .status(500)
       .json({ success: false, error: "Internal server error" });

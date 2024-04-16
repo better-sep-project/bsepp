@@ -1,6 +1,7 @@
-const EntryModel = require("../models/EntryModel");
-const EntryFilters = require("../utils/EntryFilters");
+const EntryModel = require("../model/EntriesModel");
+const EntryFilters = require("../utils/entryFilters");
 const { entryPipelineQuery } = require("../pipelines/entrySearchPipeline");
+const util = require('util');
 
 /**
  * Helper service to get all entries, including filters and pagination.
@@ -11,12 +12,13 @@ const { entryPipelineQuery } = require("../pipelines/entrySearchPipeline");
  */
 exports.getEntries = async (filters, page, limit) => {
   // get pipeline query
-  const query = entryPipelineQuery(searchQuery, filters);
+  const query = entryPipelineQuery(filters);
+
+  // console.log("query", query);
+  console.log("query", util.inspect(query, {showHidden: false, depth: null}));
 
   // get entries
-  const entries = await EntryModel.aggregate(query)
+  return EntryModel.aggregate(query)
     .skip((page - 1) * limit)
     .limit(limit);
-
-  return entries;
 };

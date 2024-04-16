@@ -1,5 +1,5 @@
-const EntryModel = require("../models/EntryModel");
-const EntryFilters = require("../utils/EntryFilters");
+const EntryModel = require("../model/EntriesModel");
+const EntryFilters = require("../utils/entryFilters");
 
 const SEARCH_CFG = {
   autocomplete: {
@@ -17,7 +17,8 @@ const SEARCH_CFG = {
  * @param {P} searchQuery Term to search
  * @param {EntryFilters} filters Filters to apply to the search
  */
-exports.entryPipelineQuery = (searchQuery, filters) => {
+exports.entryPipelineQuery = (filters) => {
+  const searchQuery = filters.title;
   let query = [
     {
       $search: {
@@ -123,4 +124,6 @@ exports.entryPipelineQuery = (searchQuery, filters) => {
       meta: "$$SEARCH_META",
     },
   });
+
+  return query;
 };

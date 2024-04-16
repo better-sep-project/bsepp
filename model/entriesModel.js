@@ -11,7 +11,7 @@ const EntrySchema = new Schema({
   },
   preamble: { type: String, required: false },
   bibliography: { type: String, required: false },
-  toc: [{type: Schema.Types.ObjectId, ref: "TocItem"}],
+  toc: [{ type: Schema.Types.ObjectId, ref: "TocItem" }],
   otherInternetResources: [
     { type: Schema.Types.ObjectId, ref: "OtherInternetResources" },
   ],
@@ -20,6 +20,7 @@ const EntrySchema = new Schema({
     scrapedAt: { type: Date, required: true },
     sourceUrl: { type: String, required: true },
   },
+  articleContent: [{ type: Schema.Types.ObjectId, ref: "ArticleContent" }],
 });
 
 module.exports = mongoose.model("Entry", EntrySchema);

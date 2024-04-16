@@ -63,41 +63,7 @@ MongoDB database to store:
 Follow schema in `./models`.
 
 #### Indexes
-Search Index should be applied on `title` in the entry model:
-```json
-{
-  "mappings": {
-    "dynamic": true,
-    "fields": {
-      "preamble": {
-        "ignoreAbove": 500,
-        "norms": "omit",
-        "type": "string"
-      },
-      "title": {
-        "type": "string"
-      }
-    }
-  }
-}
-```
-
-Autocomplete Index should be applied on `title` in the entry model:
-```json
-{
-  "mappings": {
-    "dynamic": false,
-    "fields": {
-      "title": {
-        "maxGrams": 7,
-        "minGrams": 2,
-        "tokenization": "edgeGram",
-        "type": "autocomplete"
-      }
-    }
-  }
-}
-```
+todo
 
 ### AWS
 Lambda function `scrapeRss.js` will be stored in an AWS Lambda function. It will be called in intervals (AWS CloudWatch) at a specific time every day (or another suitable interval).

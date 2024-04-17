@@ -1,10 +1,14 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const fs = require("fs");
+const fs = require('fs').promises;
 const { JSDOM } = require("jsdom");
 const { convert } = require("html-to-text");
 const ProgressBar = require("progress");
 const baseURL = "https://plato.stanford.edu";
+const ArticleContentModel = require('./model/ArticleContentModel');
+const saveData = require("./saveData");
+require('dotenv').config();
+const mongoose = require("mongoose");
 
 /**
  * Fetches HTML from a given URL.
@@ -139,14 +143,81 @@ async function getEntryDetails(entryUrl) {
       scrapedAt: new Date().toISOString(),
       sourceUrl: entryUrl,
     },
+    ArticleContentModel
   };
 }
+
+
+/**
+ * Scrapes the philosophical entry from the given URL.
+ * @param {string} url - The URL of the philosophical entry to scrape.
+ * @returns {Promise<Object|null>} An object representing the scraped article, or null if no content could be fetched.
+ */
+async function scrapeEntry(url) {
+  const html = await fetchHTML(url);
+  if (!html) return null;
+  const $ = cheerio.load(html);
+
+  let identifier = url.split("/entries/")[1];
+  identifier = identifier.endsWith("/") ? identifier.slice(0, -1) : identifier;
+
+  let sections = [];
+  let currentSection = { children: [] };
+  
+  
+  
+  $("#main-text > *").each(function () {
+    const nodeName = $(this).prop("nodeName").toLowerCase();
+
+    if (nodeName === "h2" || nodeName === "h3") {
+      if (currentSection && currentSection.children.length > 0) {
+        sections.push(currentSection);
+      }
+
+      let thisIdentifier;
+
+      if ($(this).attr("name") || $(this).attr("id")) {
+        thisIdentifier = $(this).attr("name") || $(this).attr("id");
+      } else {
+        const a = $(this).find("a");
+        thisIdentifier = a.attr("name") || a.attr("id");
+      }
+
+      currentSection = {
+        identifier: thisIdentifier,
+        title: $(this).text().trim(),
+        contentType: nodeName === "h2" ? "heading" : "subheading",
+        children: [],
+      };
+    } else if (nodeName === "p" || nodeName === "blockquote") {
+      const contentType = nodeName === "p" ? "text" : "blockQuote";
+      currentSection.children.push({
+        contentType: contentType,
+        value: $(this).html().trim(), // .html preserves the formatting
+      });
+    }
+  });
+
+  if (currentSection && currentSection.children.length > 0) {
+    sections.push(currentSection);
+  }
+
+  const entryArticle = {
+    articleContent: sections,
+  };
+
+  return entryArticle;
+}
+
 
 /**
  * Orchestrates the scraping of entries from the Stanford Encyclopedia of Philosophy.
  * @returns {Promise<void>} A promise that resolves when all entries have been processed and saved.
  */
 async function scrapePlatoStanford() {
+// connect to mongoose with uri pasted i
+  await mongoose.connect('mongodb+srv://scraper:lkzy4gYBy9KqsPvh@cluster0.augtsuf.mongodb.net/')
+
   const contentsHtml = await fetchHTML(baseURL + "/contents.html");
   const $ = cheerio.load(contentsHtml);
   const links = $('li a[href*="entries/"]').toArray();
@@ -159,19 +230,30 @@ async function scrapePlatoStanford() {
     total: originalEntries.length,
   });
 
-  const entries = [];
+  // const entries = [];
+  // const articleContents = [];
   for (const link of originalEntries) {
     const href = $(link).attr("href");
+    console.log("Scraping entry link: ", href);
     const identifier = href.split("/")[1];
     const url = `${baseURL}/${href}`;
     const details = await getEntryDetails(url);
     if (details) {
-      entries.push({ identifier, ...details });
-      bar.tick();
-    }
+            const content = await scrapeEntry(url);
+            if (content) {
+                let entry = {
+                  identifier,
+                  ...details
+                };
+                // articleContents.push(content.articleContent);
+                console.log(`Calling saveData for identifier: ${identifier}, title: ${details.title}`);
+                await saveData(entry, content.articleContent);
+            }
+            bar.tick();
+        }
+
   }
 
-  fs.writeFileSync("entries.json", JSON.stringify(entries, null, 2));
   console.log("All entries have been saved to entries.json");
 }
 

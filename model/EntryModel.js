@@ -4,14 +4,13 @@ const Schema = mongoose.Schema;
 const EntrySchema = new Schema({
   identifier: { type: String, required: true },
   title: { type: String, required: true },
-  authors: [{ type: Object, required: true }],
   dates: {
     firstPublished: { type: Date, required: false },
     lastUpdated: { type: Date, required: false },
   },
   preamble: { type: String, required: false },
   bibliography: { type: String, required: false },
-  toc: [{ type: Schema.Types.ObjectId, ref: "TocItem" }],
+  toc: [{ type: Schema.Types.ObjectId, ref: "TocNode" }],
   otherInternetResources: [
     {
       title: { type: String, required: true },
@@ -30,7 +29,7 @@ const EntrySchema = new Schema({
     scrapedAt: { type: Date, required: true },
     sourceUrl: { type: String, required: true },
   },
-  articleContent: [{ type: Schema.Types.ObjectId, ref: "ArticleContent" }],
+  articleContent: { type: Schema.Types.ObjectId, ref: "ArticleContent" },
 });
 
 module.exports = mongoose.model("Entry", EntrySchema);

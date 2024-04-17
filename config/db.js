@@ -4,17 +4,25 @@ const mongoose = require("mongoose");
 class MongooseClient {
   constructor() {
     if (!MongooseClient.instance) {
-      this.client = mongoose.connect(process.env.MONGO_URL, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-      });
+      const base =
+        process.env.MONGO_URL +
+        (process.env.ENV === "production" ? "bsepp-core" : "test");
 
-      this.client.then(() => {
-        console.log("Connected to MongoDB");
-      });
+      console.log(`Connecting to MongoDB at ${base}`);
 
-      this.client.catch((err) => {
-        console.log(`Error: ${err}`);
+      this.connectionPromise = new Promise((resolve, reject) => {
+        this.client = mongoose.connect(base, {
+          useNewUrlParser: true,
+          useUnifiedTopology: true,
+        });
+
+        this.client.then(() => {
+          console.log("Connected to MongoDB");
+          resolve();
+        }).catch((err) => {
+          console.log(`Error: ${err}`);
+          reject(err);
+        });
       });
 
       MongooseClient.instance = this;

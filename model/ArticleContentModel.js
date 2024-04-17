@@ -11,15 +11,10 @@ const ArticleContentSchema = new Schema({
     type: String,
     required: true,
   },
-  contentType: {
-    type: String,
-    required: true,
-    enum: ["heading", "subheading"],
-  },
-  children: [{
+  child: {
     type: Schema.Types.ObjectId,
     ref: "ArticleContentNode",
-  }],
+  },
 });
 
 module.exports = mongoose.model("ArticleContent", ArticleContentSchema);

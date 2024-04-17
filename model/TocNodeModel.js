@@ -9,14 +9,21 @@ const TocNodeSchema = new Schema({
       default: [],
     },
   ],
-  title: {
+  node: {
     type: String,
-    required: true,
-  },
-  href: {
-    type: String,
+    ref: "ArticleContentNode",
     required: true,
   },
 });
+
+var autoPopulateChildren = function (next) {
+  this.populate("children");
+  next();
+};
+
+TocNodeSchema.pre("findOne", autoPopulateChildren).pre(
+  "find",
+  autoPopulateChildren
+);
 
 module.exports = mongoose.model("TocNode", TocNodeSchema);

@@ -26,6 +26,11 @@ const TAG_HIERARCHY = {
   p: 6,
   blockquote: 6,
 };
+const DEBUG = false;
+const INFO = true;
+
+if (!DEBUG) console.debug = () => {};
+if (!INFO) console.info = () => {};
 
 /**
  * Scrapes the ./contents.html page to get a list of all articles
@@ -180,7 +185,6 @@ async function scrapeArticle(entryObj) {
 
   // get articleContent fk
   const articleContentObj = await scrapeArticleContent($, identifier, title);
-  console.debug("articleContentObj", articleContentObj);
   const articleContent = articleContentObj.articleContentId;
   const toc = articleContentObj.tocNodeArray;
 
@@ -224,17 +228,12 @@ async function scrapeArticle(entryObj) {
  *
  * This does not depend on the table of contents explicitly in the article.
  * Instead, we build it manually!
- *
- * We start at #main-text.
- * `h2`, `h3`, ... are headings
- * `blockquote` are blockquotes, `p` are text.
- *
- * To handle hierarchy, we keep a stack of headings.
  */
 async function scrapeArticleContent($, identifier, title) {
   console.log(
     `  [scrapeArticleContent] Scraping article content for ${identifier} (${title})`
   );
+
   // for ArticleContent
   let rootNode = await ArticleContentNodeModel.create({
     contentType: "title",
@@ -250,44 +249,75 @@ async function scrapeArticleContent($, identifier, title) {
     },
   ];
 
-  $("#main-text > *").each(async function () {
-    const tag = $(this).prop("nodeName").toLowerCase();
-    const content = $(this).text().trim();
-    console.debug(
-      `    tag: ${tag}, content: ${content.substring(
-        0,
-        15
-      )}, currentStack: ${util.inspect(parentStack.slice(-3))}`
-    );
+  for (const element of $("#main-text > *").toArray()) {
+    const tag = $(element).prop("nodeName").toLowerCase();
+    const content = $(element).text().trim();
 
     await articleContentAddNode(parentStack, tag, content);
-  });
+  }
 
   // now we can create articleContent
   const articleContent = await ArticleContentModel.create({
     identifier,
     title,
-    children: [rootId],
+    child: rootId,
   });
+
+  // get child id
+  const articleContentView = await ArticleContentModel.findById(
+    articleContent._id
+  ).exec();
+
+  const view = await ArticleContentNodeModel.findOne({
+    _id: articleContentView.child,
+  }).exec();
+
+  console.log(util.inspect(view, { depth: null }));
+
+  const toc = tocFromView(view);
+  console.debug(`  [scrapeArticleContent] Created TOC nodes ${util.inspect(toc)}`);
 
   const rv = {
     articleContentId: articleContent._id,
-    tocNodeArray: null,
+    tocNodeArray: toc,
   };
-
-  console.debug(
-    "  [scrapeArticleContent] Done scraping article content: " + rv
-  );
 
   return rv;
 }
 
+/**
+ * Recursive function to convert a list of ArticleContentNodes to TOC nodes.
+ * 
+ * @param {Object} view - The view to convert.
+ * @returns {Array<ObjectId>} Top-most TOC nodes.
+ */
+async function tocFromView(articleNodes) {
+  console.log("articleNodes " + articleNodes);
+  // convert each node to a TOC node recursively
+  const tocNodes = [];
+  for (const node of articleNodes.children) {
+    if (!(node.contentType === "heading" || node.contentType === "title")) {
+      continue;
+    }
+
+    const tocNode = await tocFromView(node);
+    tocNodes.push(tocNode);
+  }
+
+  const toc = await TocNodeModel.create({
+    children: tocNodes,
+    node: articleNodes._id,
+  });
+
+  return toc._id;
+}
+
 async function articleContentAddNode(parentStack, tag, content) {
-  console.log(
+  console.debug(
     `    [articleContentAddNode] Adding node: ${tag}, ${content.substring(
       0,
       15
-    )}, currentStack: ${util.inspect(parentStack.slice(-3))}`
+    )}, currentStack: ${util.inspect(parentStack.map((x) => x.level))}`
   );
   // get content type ["text", "blockQuote", "heading", "title"]
   let contentType = tag.startsWith("h")
@@ -304,35 +334,50 @@ async function articleContentAddNode(parentStack, tag, content) {
   });
   const newNodeId = newNode._id;
 
-  // console.debug(`    Parent stack: ${util.inspect(parentStack.slice(-3))}`);
-
-  // get the parent node
-  while (parentStack[parentStack.length - 1].level >= TAG_HIERARCHY[tag]) {
-    parentStack.pop();
-
-    // if we're at the root, we're done
-    if (parentStack.length === 0) {
-      break;
-    }
+  // if its para or blockquote, we add it to the last parent
+  if (contentType === "text" || contentType === "blockQuote") {
+    const lastParentId = parentStack.slice(-1)[0].nodeId;
+    await ArticleContentNodeModel.updateOne(
+      { _id: lastParentId },
+      { $push: { children: newNodeId } }
+    );
+    return;
   }
 
-  // console.debug(`    Parent stack after popping (last 3): ${util.inspect(parentStack.slice(-3))}`);
+  // console.debug(`    Parent stack: ${util.inspect(parentStack.slice(-3))}`);
 
-  const parentId = parentStack[parentStack.length - 1].nodeId;
+  // RULES:
+  // if greater: add child to last parent, push to stack
+  // else      :
+  // 1. pop until we find a parent with level < this level
+  // 2. add child to that parent
+  // 3. push to stack
 
-  // update the parent node
-  await ArticleContentNodeModel.updateOne(
-    { _id: parentId },
-    { $push: { children: newNodeId } }
-  );
+  const level = TAG_HIERARCHY[tag];
+  const lastParent = parentStack.slice(-1)[0];
+  if (level > lastParent.level) {
+    // add child to last parent, push to stack
+    await ArticleContentNodeModel.updateOne(
+      { _id: lastParent.nodeId },
+      { $push: { children: newNodeId } }
+    );
+    parentStack.push({ nodeId: newNodeId, level });
+  } else {
+    // pop until we find a parent with level < this level
+    while (parentStack.length > 0 && parentStack.slice(-1)[0].level >= level) {
+      parentStack.pop();
+    }
 
-  // update the stack
-  parentStack.push({
-    nodeId: newNodeId,
-    level: TAG_HIERARCHY[tag],
-  });
+    // add child to that parent
+    const lastParentId = parentStack.slice(-1)[0].nodeId;
+    await ArticleContentNodeModel.updateOne(
+      { _id: lastParentId },
+      { $push: { children: newNodeId } }
+    );
 
-  // console.debug(`    Parent stack after pushing: ${util.inspect(parentStack.slice(-3))}`);
+    // push to stack
+    parentStack.push({ nodeId: newNodeId, level });
+  }
 }
 
 /**

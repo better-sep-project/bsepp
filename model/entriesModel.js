@@ -13,9 +13,19 @@ const EntrySchema = new Schema({
   bibliography: { type: String, required: false },
   toc: [{ type: Schema.Types.ObjectId, ref: "TocItem" }],
   otherInternetResources: [
-    { type: Schema.Types.ObjectId, ref: "OtherInternetResources" },
+    {
+      title: { type: String, required: true },
+      description: { type: String, required: false },
+      url: { type: String, required: true },
+    },
   ],
-  relatedEntries: [{ type: Schema.Types.ObjectId, ref: "RelatedEntry" }],
+  relatedEntries: [
+    {
+      relId: { type: String, required: false },
+      relatedEntryTitle: { type: String, required: false },
+      relEntryUrl: { type: String, required: false },
+    },
+  ],
   meta: {
     scrapedAt: { type: Date, required: true },
     sourceUrl: { type: String, required: true },

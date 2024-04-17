@@ -1,4 +1,3 @@
-const EntryModel = require("../model/EntriesModel");
 const EntryFilters = require("../utils/entryFilters");
 
 const SEARCH_CFG = {

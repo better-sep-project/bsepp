@@ -17,15 +17,8 @@ const ArticleContentSchema = new Schema({
     enum: ["heading", "subheading"],
   },
   children: [{
-    contentType: {
-      type: String,
-      required: true,
-      enum: ["text", "blockQuote"],
-    },
-    value: {
-      type: String,
-      required: true,
-    },
+    type: Schema.Types.ObjectId,
+    ref: "ArticleContentNode",
   }],
 });
 

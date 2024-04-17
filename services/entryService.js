@@ -1,4 +1,4 @@
-const EntryModel = require("../model/EntriesModel");
+const EntryModel = require("../model/EntryModel");
 const EntryFilters = require("../utils/entryFilters");
 const { entryPipelineQuery } = require("../pipelines/entrySearchPipeline");
 const util = require('util');

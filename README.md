@@ -1,5 +1,27 @@
 # BSEPP
-README is currently for developer documentation, rewrite later (maybe).
+> [!IMPORTANT]  
+> The project is **not** affiliated with Stanford University or the Stanford Encyclopedia of Philosophy.
+> It is a personal project to create a better version of the Stanford Encyclopedia of Philosophy.
+>
+> You may not use this project for commercial nor public use without permission from the original authors and Stanford University.
+
+The **Better Stanford Encyclopedia of Philosophy Project** aimed to create a better version of the Stanford Encyclopedia of Philosophy, with a more modern design and better search capabilities.
+
+By using, downloading, or contributing to this project, you agree to [Stanford University's terms of use](https://plato.stanford.edu/info.html). You may not publicly use this project without permission from the original authors and Stanford University.
+
+Consider [Friends of the SEP Society](https://leibniz.stanford.edu/friends/).
+
+## Important Information
+Please take the following into consideration:
+- This is unsustainable due to how the SEP website is structured
+- Using the name "Stanford" requires affiliation or permission from Stanford University
+- You may not distribute the content of SEP articles without permission
+- Changes are not guaranteed to be up-to-date with the SEP, as some are undocumented changes
+- The publication of a website of this project would undermine SEP's support, impact, metrics, and understanding and should be avoided
+- An unofficial API would violate SEP's exclusive license.
+- Scraping must not place a burden on the SEP servers
+
+# Developer notes
 
 ## Structure
 ```
